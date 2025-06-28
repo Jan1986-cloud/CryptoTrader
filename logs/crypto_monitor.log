@@ -1,0 +1,22 @@
+2025-06-28 15:18:46,010 - crypto_monitor - INFO - CryptoMonitor initialized with 60s interval
+2025-06-28 15:18:46,010 - crypto_monitor - INFO - Found 3 tradeable coins
+2025-06-28 15:18:46,359 - crypto_monitor - INFO - CryptoMonitor initialized with 60s interval
+2025-06-28 15:18:46,360 - crypto_monitor - INFO - Starting monitoring loop
+2025-06-28 15:18:46,360 - crypto_monitor - INFO - Crypto monitoring started
+2025-06-28 15:18:46,360 - crypto_monitor - INFO - Found 3 tradeable coins
+2025-06-28 15:18:46,360 - crypto_monitor - INFO - Analyzing all coins for 1h timeframe
+2025-06-28 15:18:46,360 - crypto_monitor - INFO - Starting analysis of 3 coins
+2025-06-28 15:18:46,620 - crypto_monitor - INFO - Analysis completed in 0.26s. 3 successful analyses
+2025-06-28 15:18:46,620 - crypto_monitor - INFO - Analyzing all coins for 1d timeframe
+2025-06-28 15:18:46,620 - crypto_monitor - INFO - Starting analysis of 3 coins
+2025-06-28 15:18:47,150 - crypto_monitor - INFO - Analysis completed in 0.53s. 3 successful analyses
+2025-06-28 15:18:47,150 - crypto_monitor - INFO - Analyzing all coins for 7d timeframe
+2025-06-28 15:18:47,151 - crypto_monitor - INFO - Starting analysis of 3 coins
+2025-06-28 15:18:47,458 - crypto_monitor - INFO - Analysis completed in 0.31s. 3 successful analyses
+2025-06-28 15:18:47,458 - crypto_monitor - INFO - Identified 0 trading opportunities
+2025-06-28 15:18:47,458 - crypto_monitor - INFO - Identified 0 trading opportunities
+2025-06-28 15:18:47,458 - crypto_monitor - INFO - Identified 0 trading opportunities
+2025-06-28 15:18:47,458 - crypto_monitor - INFO - Monitoring cycle completed in 1.10s. Sleeping for 58.90s
+2025-06-28 15:19:01,361 - crypto_monitor - INFO - Crypto monitoring stopped
+2025-06-28 15:19:31,362 - crypto_monitor - INFO - CryptoMonitor initialized with 60s interval
+2025-06-28 15:19:54,572 - crypto_monitor - INFO - CryptoMonitor initialized with 3600s interval

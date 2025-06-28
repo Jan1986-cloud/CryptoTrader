@@ -1,0 +1,77 @@
+2025-06-28 14:32:49,593 - e2e_test - INFO - Running all end-to-end tests with interval 1h
+2025-06-28 14:32:49,594 - e2e_test - INFO - Testing data collection for 2 symbols with interval 1h
+2025-06-28 14:32:49,594 - e2e_test - ERROR - Failed to fetch candles for BTC-USD
+2025-06-28 14:32:49,595 - e2e_test - ERROR - Failed to fetch candles for ETH-USD
+2025-06-28 14:32:49,595 - e2e_test - INFO - Data collection test completed with 0% success rate
+2025-06-28 14:32:49,595 - e2e_test - INFO - Data collection test: FAILED
+2025-06-28 14:32:49,595 - e2e_test - INFO - Testing analysis pipeline for 2 symbols with interval 1h
+2025-06-28 14:32:49,780 - e2e_test - INFO - Successfully analyzed BTC-USD: HOLD
+2025-06-28 14:32:49,927 - e2e_test - INFO - Successfully analyzed ETH-USD: HOLD
+2025-06-28 14:32:49,927 - e2e_test - INFO - Analysis pipeline test completed with 100% success rate
+2025-06-28 14:32:49,927 - e2e_test - INFO - Analysis pipeline test: PASSED
+2025-06-28 14:32:49,927 - e2e_test - INFO - Testing trading engine for 2 symbols with interval 1h
+2025-06-28 14:32:50,140 - e2e_test - INFO - Successfully tested trading for BTC-USD: SIMULATED
+2025-06-28 14:32:50,343 - e2e_test - INFO - Successfully tested trading for ETH-USD: SIMULATED
+2025-06-28 14:32:50,343 - e2e_test - INFO - Trading engine test completed with 100% success rate
+2025-06-28 14:32:50,343 - e2e_test - INFO - Trading engine test: PASSED
+2025-06-28 14:32:50,343 - e2e_test - INFO - Testing UI data integration
+2025-06-28 14:32:50,845 - e2e_test - INFO - Successfully generated UI test data
+2025-06-28 14:32:50,846 - e2e_test - INFO - UI data integration test: PASSED
+2025-06-28 14:32:50,846 - e2e_test - INFO - End-to-end tests: FAILED
+2025-06-28 14:34:38,297 - e2e_test - INFO - Running all end-to-end tests with interval 1h
+2025-06-28 14:34:38,297 - e2e_test - INFO - Testing data collection for 2 symbols with interval 1h
+2025-06-28 14:34:38,298 - e2e_test - ERROR - Failed to fetch candles for BTC-USD
+2025-06-28 14:34:38,298 - e2e_test - ERROR - Failed to fetch candles for ETH-USD
+2025-06-28 14:34:38,298 - e2e_test - INFO - Data collection test completed with 0% success rate
+2025-06-28 14:34:38,298 - e2e_test - INFO - Data collection test: FAILED
+2025-06-28 14:34:38,298 - e2e_test - INFO - Testing analysis pipeline for 2 symbols with interval 1h
+2025-06-28 14:34:38,642 - e2e_test - INFO - Successfully analyzed BTC-USD: HOLD
+2025-06-28 14:34:39,108 - e2e_test - INFO - Successfully analyzed ETH-USD: HOLD
+2025-06-28 14:34:39,109 - e2e_test - INFO - Analysis pipeline test completed with 100% success rate
+2025-06-28 14:34:39,109 - e2e_test - INFO - Analysis pipeline test: PASSED
+2025-06-28 14:34:39,109 - e2e_test - INFO - Testing trading engine for 2 symbols with interval 1h
+2025-06-28 14:34:39,307 - e2e_test - INFO - Successfully tested trading for BTC-USD: SIMULATED
+2025-06-28 14:34:39,734 - e2e_test - INFO - Successfully tested trading for ETH-USD: SIMULATED
+2025-06-28 14:34:39,734 - e2e_test - INFO - Trading engine test completed with 100% success rate
+2025-06-28 14:34:39,734 - e2e_test - INFO - Trading engine test: PASSED
+2025-06-28 14:34:39,735 - e2e_test - INFO - Testing UI data integration
+2025-06-28 14:34:40,346 - e2e_test - INFO - Successfully generated UI test data
+2025-06-28 14:34:40,346 - e2e_test - INFO - UI data integration test: PASSED
+2025-06-28 14:34:40,346 - e2e_test - INFO - End-to-end tests: FAILED
+2025-06-28 14:35:15,270 - e2e_test - INFO - Running all end-to-end tests with interval 1h
+2025-06-28 14:35:15,270 - e2e_test - INFO - Testing data collection for 2 symbols with interval 1h
+2025-06-28 14:35:15,270 - e2e_test - ERROR - Failed to fetch candles for BTC-USD
+2025-06-28 14:35:15,271 - e2e_test - ERROR - Failed to fetch candles for ETH-USD
+2025-06-28 14:35:15,271 - e2e_test - INFO - Data collection test completed with 0% success rate
+2025-06-28 14:35:15,271 - e2e_test - INFO - Data collection test: FAILED
+2025-06-28 14:35:15,271 - e2e_test - INFO - Testing analysis pipeline for 2 symbols with interval 1h
+2025-06-28 14:35:15,464 - e2e_test - INFO - Successfully analyzed BTC-USD: HOLD
+2025-06-28 14:35:15,656 - e2e_test - INFO - Successfully analyzed ETH-USD: HOLD
+2025-06-28 14:35:15,657 - e2e_test - INFO - Analysis pipeline test completed with 100% success rate
+2025-06-28 14:35:15,657 - e2e_test - INFO - Analysis pipeline test: PASSED
+2025-06-28 14:35:15,657 - e2e_test - INFO - Testing trading engine for 2 symbols with interval 1h
+2025-06-28 14:35:15,825 - e2e_test - INFO - Successfully tested trading for BTC-USD: SIMULATED
+2025-06-28 14:35:16,001 - e2e_test - INFO - Successfully tested trading for ETH-USD: SIMULATED
+2025-06-28 14:35:16,001 - e2e_test - INFO - Trading engine test completed with 100% success rate
+2025-06-28 14:35:16,001 - e2e_test - INFO - Trading engine test: PASSED
+2025-06-28 14:35:16,001 - e2e_test - INFO - Testing UI data integration
+2025-06-28 14:35:16,638 - e2e_test - INFO - Successfully generated UI test data
+2025-06-28 14:35:16,638 - e2e_test - INFO - UI data integration test: PASSED
+2025-06-28 14:35:16,638 - e2e_test - INFO - End-to-end tests: FAILED
+2025-06-28 14:35:39,581 - e2e_test - INFO - Running all end-to-end tests with interval 1h
+2025-06-28 14:35:39,581 - e2e_test - INFO - Testing data collection for 1 symbols with interval 1h
+2025-06-28 14:35:39,582 - e2e_test - ERROR - Failed to fetch candles for BTC-USD
+2025-06-28 14:35:39,582 - e2e_test - INFO - Data collection test completed with 0% success rate
+2025-06-28 14:35:39,582 - e2e_test - INFO - Data collection test: FAILED
+2025-06-28 14:35:39,582 - e2e_test - INFO - Testing analysis pipeline for 1 symbols with interval 1h
+2025-06-28 14:35:39,923 - e2e_test - INFO - Successfully analyzed BTC-USD: HOLD
+2025-06-28 14:35:39,923 - e2e_test - INFO - Analysis pipeline test completed with 100% success rate
+2025-06-28 14:35:39,923 - e2e_test - INFO - Analysis pipeline test: PASSED
+2025-06-28 14:35:39,923 - e2e_test - INFO - Testing trading engine for 1 symbols with interval 1h
+2025-06-28 14:35:40,168 - e2e_test - INFO - Successfully tested trading for BTC-USD: SIMULATED
+2025-06-28 14:35:40,168 - e2e_test - INFO - Trading engine test completed with 100% success rate
+2025-06-28 14:35:40,168 - e2e_test - INFO - Trading engine test: PASSED
+2025-06-28 14:35:40,168 - e2e_test - INFO - Testing UI data integration
+2025-06-28 14:35:40,831 - e2e_test - INFO - Successfully generated UI test data
+2025-06-28 14:35:40,831 - e2e_test - INFO - UI data integration test: PASSED
+2025-06-28 14:35:40,831 - e2e_test - INFO - End-to-end tests: FAILED

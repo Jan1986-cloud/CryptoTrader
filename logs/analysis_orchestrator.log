@@ -1,0 +1,83 @@
+2025-06-28 14:32:49,595 - analysis_orchestrator - INFO - Starting comprehensive analysis for BTC-USD with interval 1h
+2025-06-28 14:32:49,780 - analysis_orchestrator - INFO - Completed comprehensive analysis for BTC-USD
+2025-06-28 14:32:49,781 - analysis_orchestrator - INFO - Starting comprehensive analysis for ETH-USD with interval 1h
+2025-06-28 14:32:49,927 - analysis_orchestrator - INFO - Completed comprehensive analysis for ETH-USD
+2025-06-28 14:32:49,927 - analysis_orchestrator - INFO - Saved analysis results to e2e_test_results.json
+2025-06-28 14:32:49,927 - analysis_orchestrator - INFO - Starting comprehensive analysis for BTC-USD with interval 1h
+2025-06-28 14:32:50,139 - analysis_orchestrator - INFO - Completed comprehensive analysis for BTC-USD
+2025-06-28 14:32:50,140 - analysis_orchestrator - INFO - Starting comprehensive analysis for ETH-USD with interval 1h
+2025-06-28 14:32:50,342 - analysis_orchestrator - INFO - Completed comprehensive analysis for ETH-USD
+2025-06-28 14:32:50,343 - analysis_orchestrator - INFO - Starting comprehensive analysis for BTC-USD with interval 1h
+2025-06-28 14:32:50,524 - analysis_orchestrator - INFO - Completed comprehensive analysis for BTC-USD
+2025-06-28 14:32:50,524 - analysis_orchestrator - INFO - Starting comprehensive analysis for ETH-USD with interval 1h
+2025-06-28 14:32:50,717 - analysis_orchestrator - INFO - Completed comprehensive analysis for ETH-USD
+2025-06-28 14:32:50,718 - analysis_orchestrator - INFO - Starting comprehensive analysis for SOL-USD with interval 1h
+2025-06-28 14:32:50,845 - analysis_orchestrator - INFO - Completed comprehensive analysis for SOL-USD
+2025-06-28 14:32:50,845 - analysis_orchestrator - INFO - Saved analysis results to ui_test_data.json
+2025-06-28 14:34:38,298 - analysis_orchestrator - INFO - Starting comprehensive analysis for BTC-USD with interval 1h
+2025-06-28 14:34:38,642 - analysis_orchestrator - INFO - Completed comprehensive analysis for BTC-USD
+2025-06-28 14:34:38,642 - analysis_orchestrator - INFO - Starting comprehensive analysis for ETH-USD with interval 1h
+2025-06-28 14:34:39,108 - analysis_orchestrator - INFO - Completed comprehensive analysis for ETH-USD
+2025-06-28 14:34:39,108 - analysis_orchestrator - INFO - Saved analysis results to e2e_test_results.json
+2025-06-28 14:34:39,109 - analysis_orchestrator - INFO - Starting comprehensive analysis for BTC-USD with interval 1h
+2025-06-28 14:34:39,306 - analysis_orchestrator - INFO - Completed comprehensive analysis for BTC-USD
+2025-06-28 14:34:39,307 - analysis_orchestrator - INFO - Starting comprehensive analysis for ETH-USD with interval 1h
+2025-06-28 14:34:39,734 - analysis_orchestrator - INFO - Completed comprehensive analysis for ETH-USD
+2025-06-28 14:34:39,735 - analysis_orchestrator - INFO - Starting comprehensive analysis for BTC-USD with interval 1h
+2025-06-28 14:34:39,910 - analysis_orchestrator - INFO - Completed comprehensive analysis for BTC-USD
+2025-06-28 14:34:39,910 - analysis_orchestrator - INFO - Starting comprehensive analysis for ETH-USD with interval 1h
+2025-06-28 14:34:40,152 - analysis_orchestrator - INFO - Completed comprehensive analysis for ETH-USD
+2025-06-28 14:34:40,152 - analysis_orchestrator - INFO - Starting comprehensive analysis for SOL-USD with interval 1h
+2025-06-28 14:34:40,345 - analysis_orchestrator - INFO - Completed comprehensive analysis for SOL-USD
+2025-06-28 14:34:40,346 - analysis_orchestrator - INFO - Saved analysis results to ui_test_data.json
+2025-06-28 14:35:15,271 - analysis_orchestrator - INFO - Starting comprehensive analysis for BTC-USD with interval 1h
+2025-06-28 14:35:15,464 - analysis_orchestrator - INFO - Completed comprehensive analysis for BTC-USD
+2025-06-28 14:35:15,464 - analysis_orchestrator - INFO - Starting comprehensive analysis for ETH-USD with interval 1h
+2025-06-28 14:35:15,656 - analysis_orchestrator - INFO - Completed comprehensive analysis for ETH-USD
+2025-06-28 14:35:15,657 - analysis_orchestrator - INFO - Saved analysis results to e2e_test_results.json
+2025-06-28 14:35:15,657 - analysis_orchestrator - INFO - Starting comprehensive analysis for BTC-USD with interval 1h
+2025-06-28 14:35:15,825 - analysis_orchestrator - INFO - Completed comprehensive analysis for BTC-USD
+2025-06-28 14:35:15,825 - analysis_orchestrator - INFO - Starting comprehensive analysis for ETH-USD with interval 1h
+2025-06-28 14:35:16,001 - analysis_orchestrator - INFO - Completed comprehensive analysis for ETH-USD
+2025-06-28 14:35:16,001 - analysis_orchestrator - INFO - Starting comprehensive analysis for BTC-USD with interval 1h
+2025-06-28 14:35:16,191 - analysis_orchestrator - INFO - Completed comprehensive analysis for BTC-USD
+2025-06-28 14:35:16,191 - analysis_orchestrator - INFO - Starting comprehensive analysis for ETH-USD with interval 1h
+2025-06-28 14:35:16,430 - analysis_orchestrator - INFO - Completed comprehensive analysis for ETH-USD
+2025-06-28 14:35:16,430 - analysis_orchestrator - INFO - Starting comprehensive analysis for SOL-USD with interval 1h
+2025-06-28 14:35:16,637 - analysis_orchestrator - INFO - Completed comprehensive analysis for SOL-USD
+2025-06-28 14:35:16,638 - analysis_orchestrator - INFO - Saved analysis results to ui_test_data.json
+2025-06-28 14:35:39,582 - analysis_orchestrator - INFO - Starting comprehensive analysis for BTC-USD with interval 1h
+2025-06-28 14:35:39,922 - analysis_orchestrator - INFO - Completed comprehensive analysis for BTC-USD
+2025-06-28 14:35:39,923 - analysis_orchestrator - INFO - Saved analysis results to e2e_test_results.json
+2025-06-28 14:35:39,923 - analysis_orchestrator - INFO - Starting comprehensive analysis for BTC-USD with interval 1h
+2025-06-28 14:35:40,167 - analysis_orchestrator - INFO - Completed comprehensive analysis for BTC-USD
+2025-06-28 14:35:40,168 - analysis_orchestrator - INFO - Starting comprehensive analysis for BTC-USD with interval 1h
+2025-06-28 14:35:40,397 - analysis_orchestrator - INFO - Completed comprehensive analysis for BTC-USD
+2025-06-28 14:35:40,397 - analysis_orchestrator - INFO - Starting comprehensive analysis for ETH-USD with interval 1h
+2025-06-28 14:35:40,575 - analysis_orchestrator - INFO - Completed comprehensive analysis for ETH-USD
+2025-06-28 14:35:40,575 - analysis_orchestrator - INFO - Starting comprehensive analysis for SOL-USD with interval 1h
+2025-06-28 14:35:40,830 - analysis_orchestrator - INFO - Completed comprehensive analysis for SOL-USD
+2025-06-28 14:35:40,831 - analysis_orchestrator - INFO - Saved analysis results to ui_test_data.json
+2025-06-28 15:18:46,011 - analysis_orchestrator - INFO - Starting comprehensive analysis for BTC-USD with interval 1h
+2025-06-28 15:18:46,357 - analysis_orchestrator - INFO - Completed comprehensive analysis for BTC-USD
+2025-06-28 15:18:46,361 - analysis_orchestrator - INFO - Starting comprehensive analysis for BTC-USD with interval 1h
+2025-06-28 15:18:46,361 - analysis_orchestrator - INFO - Starting comprehensive analysis for ETH-USD with interval 1h
+2025-06-28 15:18:46,361 - analysis_orchestrator - INFO - Starting comprehensive analysis for SOL-USD with interval 1h
+2025-06-28 15:18:46,561 - analysis_orchestrator - INFO - Completed comprehensive analysis for BTC-USD
+2025-06-28 15:18:46,616 - analysis_orchestrator - INFO - Completed comprehensive analysis for ETH-USD
+2025-06-28 15:18:46,619 - analysis_orchestrator - INFO - Completed comprehensive analysis for SOL-USD
+2025-06-28 15:18:46,620 - analysis_orchestrator - INFO - Starting comprehensive analysis for BTC-USD with interval 1d
+2025-06-28 15:18:46,620 - analysis_orchestrator - INFO - Starting comprehensive analysis for ETH-USD with interval 1d
+2025-06-28 15:18:46,620 - analysis_orchestrator - INFO - Starting comprehensive analysis for SOL-USD with interval 1d
+2025-06-28 15:18:47,120 - analysis_orchestrator - INFO - Generated recommendation: HOLD with confidence 0.86
+2025-06-28 15:18:47,121 - analysis_orchestrator - INFO - Completed comprehensive analysis for SOL-USD
+2025-06-28 15:18:47,128 - analysis_orchestrator - INFO - Generated recommendation: HOLD with confidence 0.89
+2025-06-28 15:18:47,128 - analysis_orchestrator - INFO - Completed comprehensive analysis for BTC-USD
+2025-06-28 15:18:47,149 - analysis_orchestrator - INFO - Generated recommendation: HOLD with confidence 0.77
+2025-06-28 15:18:47,150 - analysis_orchestrator - INFO - Completed comprehensive analysis for ETH-USD
+2025-06-28 15:18:47,151 - analysis_orchestrator - INFO - Starting comprehensive analysis for BTC-USD with interval 7d
+2025-06-28 15:18:47,153 - analysis_orchestrator - INFO - Starting comprehensive analysis for ETH-USD with interval 7d
+2025-06-28 15:18:47,159 - analysis_orchestrator - INFO - Starting comprehensive analysis for SOL-USD with interval 7d
+2025-06-28 15:18:47,339 - analysis_orchestrator - INFO - Completed comprehensive analysis for BTC-USD
+2025-06-28 15:18:47,389 - analysis_orchestrator - INFO - Completed comprehensive analysis for SOL-USD
+2025-06-28 15:18:47,458 - analysis_orchestrator - INFO - Completed comprehensive analysis for ETH-USD

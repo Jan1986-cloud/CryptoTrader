@@ -1,0 +1,396 @@
+2025-06-28 14:32:49,682 - sentiment_analysis - INFO - Starting sentiment analysis for BTC-USD with interval 1d
+2025-06-28 14:32:49,682 - sentiment_analysis - INFO - Fetching Fear & Greed Index data for the past 7 days
+2025-06-28 14:32:49,779 - sentiment_analysis - INFO - Successfully fetched 7 Fear & Greed Index data points
+2025-06-28 14:32:49,780 - sentiment_analysis - INFO - Fetching social sentiment data for BTC-USD
+2025-06-28 14:32:49,780 - sentiment_analysis - INFO - Successfully fetched social sentiment data for BTC-USD
+2025-06-28 14:32:49,780 - sentiment_analysis - INFO - Fetching news sentiment data for BTC-USD
+2025-06-28 14:32:49,780 - sentiment_analysis - INFO - Successfully fetched news sentiment data for BTC-USD
+2025-06-28 14:32:49,780 - sentiment_analysis - INFO - Fear & Greed Index score: 0.30
+2025-06-28 14:32:49,780 - sentiment_analysis - INFO - Social sentiment score: 0.36
+2025-06-28 14:32:49,780 - sentiment_analysis - INFO - News sentiment score: 0.36
+2025-06-28 14:32:49,780 - sentiment_analysis - INFO - Sentiment analysis scores: {'fear_greed': 0.3, 'social': 0.3600000000000001, 'news': 0.36, 'overall': 0.336}
+2025-06-28 14:32:49,832 - sentiment_analysis - INFO - Starting sentiment analysis for ETH-USD with interval 1d
+2025-06-28 14:32:49,832 - sentiment_analysis - INFO - Fetching Fear & Greed Index data for the past 7 days
+2025-06-28 14:32:49,926 - sentiment_analysis - INFO - Successfully fetched 7 Fear & Greed Index data points
+2025-06-28 14:32:49,926 - sentiment_analysis - INFO - Fetching social sentiment data for ETH-USD
+2025-06-28 14:32:49,926 - sentiment_analysis - INFO - Successfully fetched social sentiment data for ETH-USD
+2025-06-28 14:32:49,926 - sentiment_analysis - INFO - Fetching news sentiment data for ETH-USD
+2025-06-28 14:32:49,926 - sentiment_analysis - INFO - Successfully fetched news sentiment data for ETH-USD
+2025-06-28 14:32:49,927 - sentiment_analysis - INFO - Fear & Greed Index score: 0.30
+2025-06-28 14:32:49,927 - sentiment_analysis - INFO - Social sentiment score: 0.20
+2025-06-28 14:32:49,927 - sentiment_analysis - INFO - News sentiment score: 0.44
+2025-06-28 14:32:49,927 - sentiment_analysis - INFO - Sentiment analysis scores: {'fear_greed': 0.3, 'social': 0.19999999999999996, 'news': 0.44, 'overall': 0.312}
+2025-06-28 14:32:50,041 - sentiment_analysis - INFO - Starting sentiment analysis for BTC-USD with interval 1d
+2025-06-28 14:32:50,041 - sentiment_analysis - INFO - Fetching Fear & Greed Index data for the past 7 days
+2025-06-28 14:32:50,138 - sentiment_analysis - INFO - Successfully fetched 7 Fear & Greed Index data points
+2025-06-28 14:32:50,139 - sentiment_analysis - INFO - Fetching social sentiment data for BTC-USD
+2025-06-28 14:32:50,139 - sentiment_analysis - INFO - Successfully fetched social sentiment data for BTC-USD
+2025-06-28 14:32:50,139 - sentiment_analysis - INFO - Fetching news sentiment data for BTC-USD
+2025-06-28 14:32:50,139 - sentiment_analysis - INFO - Successfully fetched news sentiment data for BTC-USD
+2025-06-28 14:32:50,139 - sentiment_analysis - INFO - Fear & Greed Index score: 0.30
+2025-06-28 14:32:50,139 - sentiment_analysis - INFO - Social sentiment score: 0.36
+2025-06-28 14:32:50,139 - sentiment_analysis - INFO - News sentiment score: 0.36
+2025-06-28 14:32:50,139 - sentiment_analysis - INFO - Sentiment analysis scores: {'fear_greed': 0.3, 'social': 0.3600000000000001, 'news': 0.36, 'overall': 0.336}
+2025-06-28 14:32:50,249 - sentiment_analysis - INFO - Starting sentiment analysis for ETH-USD with interval 1d
+2025-06-28 14:32:50,249 - sentiment_analysis - INFO - Fetching Fear & Greed Index data for the past 7 days
+2025-06-28 14:32:50,341 - sentiment_analysis - INFO - Successfully fetched 7 Fear & Greed Index data points
+2025-06-28 14:32:50,342 - sentiment_analysis - INFO - Fetching social sentiment data for ETH-USD
+2025-06-28 14:32:50,342 - sentiment_analysis - INFO - Successfully fetched social sentiment data for ETH-USD
+2025-06-28 14:32:50,342 - sentiment_analysis - INFO - Fetching news sentiment data for ETH-USD
+2025-06-28 14:32:50,342 - sentiment_analysis - INFO - Successfully fetched news sentiment data for ETH-USD
+2025-06-28 14:32:50,342 - sentiment_analysis - INFO - Fear & Greed Index score: 0.30
+2025-06-28 14:32:50,342 - sentiment_analysis - INFO - Social sentiment score: 0.20
+2025-06-28 14:32:50,342 - sentiment_analysis - INFO - News sentiment score: 0.44
+2025-06-28 14:32:50,342 - sentiment_analysis - INFO - Sentiment analysis scores: {'fear_greed': 0.3, 'social': 0.19999999999999996, 'news': 0.44, 'overall': 0.312}
+2025-06-28 14:32:50,428 - sentiment_analysis - INFO - Starting sentiment analysis for BTC-USD with interval 1d
+2025-06-28 14:32:50,428 - sentiment_analysis - INFO - Fetching Fear & Greed Index data for the past 7 days
+2025-06-28 14:32:50,523 - sentiment_analysis - INFO - Successfully fetched 7 Fear & Greed Index data points
+2025-06-28 14:32:50,524 - sentiment_analysis - INFO - Fetching social sentiment data for BTC-USD
+2025-06-28 14:32:50,524 - sentiment_analysis - INFO - Successfully fetched social sentiment data for BTC-USD
+2025-06-28 14:32:50,524 - sentiment_analysis - INFO - Fetching news sentiment data for BTC-USD
+2025-06-28 14:32:50,524 - sentiment_analysis - INFO - Successfully fetched news sentiment data for BTC-USD
+2025-06-28 14:32:50,524 - sentiment_analysis - INFO - Fear & Greed Index score: 0.30
+2025-06-28 14:32:50,524 - sentiment_analysis - INFO - Social sentiment score: 0.36
+2025-06-28 14:32:50,524 - sentiment_analysis - INFO - News sentiment score: 0.36
+2025-06-28 14:32:50,524 - sentiment_analysis - INFO - Sentiment analysis scores: {'fear_greed': 0.3, 'social': 0.3600000000000001, 'news': 0.36, 'overall': 0.336}
+2025-06-28 14:32:50,624 - sentiment_analysis - INFO - Starting sentiment analysis for ETH-USD with interval 1d
+2025-06-28 14:32:50,624 - sentiment_analysis - INFO - Fetching Fear & Greed Index data for the past 7 days
+2025-06-28 14:32:50,716 - sentiment_analysis - INFO - Successfully fetched 7 Fear & Greed Index data points
+2025-06-28 14:32:50,717 - sentiment_analysis - INFO - Fetching social sentiment data for ETH-USD
+2025-06-28 14:32:50,717 - sentiment_analysis - INFO - Successfully fetched social sentiment data for ETH-USD
+2025-06-28 14:32:50,717 - sentiment_analysis - INFO - Fetching news sentiment data for ETH-USD
+2025-06-28 14:32:50,717 - sentiment_analysis - INFO - Successfully fetched news sentiment data for ETH-USD
+2025-06-28 14:32:50,717 - sentiment_analysis - INFO - Fear & Greed Index score: 0.30
+2025-06-28 14:32:50,717 - sentiment_analysis - INFO - Social sentiment score: 0.20
+2025-06-28 14:32:50,717 - sentiment_analysis - INFO - News sentiment score: 0.44
+2025-06-28 14:32:50,717 - sentiment_analysis - INFO - Sentiment analysis scores: {'fear_greed': 0.3, 'social': 0.19999999999999996, 'news': 0.44, 'overall': 0.312}
+2025-06-28 14:32:50,753 - sentiment_analysis - INFO - Starting sentiment analysis for SOL-USD with interval 1d
+2025-06-28 14:32:50,753 - sentiment_analysis - INFO - Fetching Fear & Greed Index data for the past 7 days
+2025-06-28 14:32:50,844 - sentiment_analysis - INFO - Successfully fetched 7 Fear & Greed Index data points
+2025-06-28 14:32:50,844 - sentiment_analysis - INFO - Fetching social sentiment data for SOL-USD
+2025-06-28 14:32:50,845 - sentiment_analysis - INFO - Successfully fetched social sentiment data for SOL-USD
+2025-06-28 14:32:50,845 - sentiment_analysis - INFO - Fetching news sentiment data for SOL-USD
+2025-06-28 14:32:50,845 - sentiment_analysis - INFO - Successfully fetched news sentiment data for SOL-USD
+2025-06-28 14:32:50,845 - sentiment_analysis - INFO - Fear & Greed Index score: 0.30
+2025-06-28 14:32:50,845 - sentiment_analysis - INFO - Social sentiment score: 0.44
+2025-06-28 14:32:50,845 - sentiment_analysis - INFO - News sentiment score: 0.55
+2025-06-28 14:32:50,845 - sentiment_analysis - INFO - Sentiment analysis scores: {'fear_greed': 0.3, 'social': 0.43999999999999995, 'news': 0.55, 'overall': 0.41700000000000004}
+2025-06-28 14:34:38,398 - sentiment_analysis - INFO - Starting sentiment analysis for BTC-USD with interval 1d
+2025-06-28 14:34:38,399 - sentiment_analysis - INFO - Fetching Fear & Greed Index data for the past 7 days
+2025-06-28 14:34:38,489 - sentiment_analysis - INFO - Successfully fetched 7 Fear & Greed Index data points
+2025-06-28 14:34:38,490 - sentiment_analysis - INFO - Fetching social sentiment data for BTC-USD
+2025-06-28 14:34:38,490 - sentiment_analysis - INFO - Successfully fetched social sentiment data for BTC-USD
+2025-06-28 14:34:38,490 - sentiment_analysis - INFO - Fetching news sentiment data for BTC-USD
+2025-06-28 14:34:38,490 - sentiment_analysis - INFO - Successfully fetched news sentiment data for BTC-USD
+2025-06-28 14:34:38,490 - sentiment_analysis - INFO - Fear & Greed Index score: 0.30
+2025-06-28 14:34:38,490 - sentiment_analysis - INFO - Social sentiment score: 0.36
+2025-06-28 14:34:38,490 - sentiment_analysis - INFO - News sentiment score: 0.36
+2025-06-28 14:34:38,490 - sentiment_analysis - INFO - Sentiment analysis scores: {'fear_greed': 0.3, 'social': 0.3600000000000001, 'news': 0.36, 'overall': 0.336}
+2025-06-28 14:34:38,805 - sentiment_analysis - INFO - Starting sentiment analysis for ETH-USD with interval 1d
+2025-06-28 14:34:38,805 - sentiment_analysis - INFO - Fetching Fear & Greed Index data for the past 7 days
+2025-06-28 14:34:38,908 - sentiment_analysis - INFO - Successfully fetched 7 Fear & Greed Index data points
+2025-06-28 14:34:38,909 - sentiment_analysis - INFO - Fetching social sentiment data for ETH-USD
+2025-06-28 14:34:38,909 - sentiment_analysis - INFO - Successfully fetched social sentiment data for ETH-USD
+2025-06-28 14:34:38,909 - sentiment_analysis - INFO - Fetching news sentiment data for ETH-USD
+2025-06-28 14:34:38,909 - sentiment_analysis - INFO - Successfully fetched news sentiment data for ETH-USD
+2025-06-28 14:34:38,909 - sentiment_analysis - INFO - Fear & Greed Index score: 0.30
+2025-06-28 14:34:38,909 - sentiment_analysis - INFO - Social sentiment score: 0.20
+2025-06-28 14:34:38,909 - sentiment_analysis - INFO - News sentiment score: 0.44
+2025-06-28 14:34:38,909 - sentiment_analysis - INFO - Sentiment analysis scores: {'fear_greed': 0.3, 'social': 0.19999999999999996, 'news': 0.44, 'overall': 0.312}
+2025-06-28 14:34:39,145 - sentiment_analysis - INFO - Starting sentiment analysis for BTC-USD with interval 1d
+2025-06-28 14:34:39,145 - sentiment_analysis - INFO - Fetching Fear & Greed Index data for the past 7 days
+2025-06-28 14:34:39,240 - sentiment_analysis - INFO - Successfully fetched 7 Fear & Greed Index data points
+2025-06-28 14:34:39,240 - sentiment_analysis - INFO - Fetching social sentiment data for BTC-USD
+2025-06-28 14:34:39,240 - sentiment_analysis - INFO - Successfully fetched social sentiment data for BTC-USD
+2025-06-28 14:34:39,240 - sentiment_analysis - INFO - Fetching news sentiment data for BTC-USD
+2025-06-28 14:34:39,240 - sentiment_analysis - INFO - Successfully fetched news sentiment data for BTC-USD
+2025-06-28 14:34:39,240 - sentiment_analysis - INFO - Fear & Greed Index score: 0.30
+2025-06-28 14:34:39,240 - sentiment_analysis - INFO - Social sentiment score: 0.36
+2025-06-28 14:34:39,240 - sentiment_analysis - INFO - News sentiment score: 0.36
+2025-06-28 14:34:39,241 - sentiment_analysis - INFO - Sentiment analysis scores: {'fear_greed': 0.3, 'social': 0.3600000000000001, 'news': 0.36, 'overall': 0.336}
+2025-06-28 14:34:39,571 - sentiment_analysis - INFO - Starting sentiment analysis for ETH-USD with interval 1d
+2025-06-28 14:34:39,571 - sentiment_analysis - INFO - Fetching Fear & Greed Index data for the past 7 days
+2025-06-28 14:34:39,679 - sentiment_analysis - INFO - Successfully fetched 7 Fear & Greed Index data points
+2025-06-28 14:34:39,680 - sentiment_analysis - INFO - Fetching social sentiment data for ETH-USD
+2025-06-28 14:34:39,680 - sentiment_analysis - INFO - Successfully fetched social sentiment data for ETH-USD
+2025-06-28 14:34:39,680 - sentiment_analysis - INFO - Fetching news sentiment data for ETH-USD
+2025-06-28 14:34:39,680 - sentiment_analysis - INFO - Successfully fetched news sentiment data for ETH-USD
+2025-06-28 14:34:39,680 - sentiment_analysis - INFO - Fear & Greed Index score: 0.30
+2025-06-28 14:34:39,680 - sentiment_analysis - INFO - Social sentiment score: 0.20
+2025-06-28 14:34:39,680 - sentiment_analysis - INFO - News sentiment score: 0.44
+2025-06-28 14:34:39,680 - sentiment_analysis - INFO - Sentiment analysis scores: {'fear_greed': 0.3, 'social': 0.19999999999999996, 'news': 0.44, 'overall': 0.312}
+2025-06-28 14:34:39,766 - sentiment_analysis - INFO - Starting sentiment analysis for BTC-USD with interval 1d
+2025-06-28 14:34:39,766 - sentiment_analysis - INFO - Fetching Fear & Greed Index data for the past 7 days
+2025-06-28 14:34:39,856 - sentiment_analysis - INFO - Successfully fetched 7 Fear & Greed Index data points
+2025-06-28 14:34:39,857 - sentiment_analysis - INFO - Fetching social sentiment data for BTC-USD
+2025-06-28 14:34:39,857 - sentiment_analysis - INFO - Successfully fetched social sentiment data for BTC-USD
+2025-06-28 14:34:39,857 - sentiment_analysis - INFO - Fetching news sentiment data for BTC-USD
+2025-06-28 14:34:39,857 - sentiment_analysis - INFO - Successfully fetched news sentiment data for BTC-USD
+2025-06-28 14:34:39,857 - sentiment_analysis - INFO - Fear & Greed Index score: 0.30
+2025-06-28 14:34:39,857 - sentiment_analysis - INFO - Social sentiment score: 0.36
+2025-06-28 14:34:39,857 - sentiment_analysis - INFO - News sentiment score: 0.36
+2025-06-28 14:34:39,857 - sentiment_analysis - INFO - Sentiment analysis scores: {'fear_greed': 0.3, 'social': 0.3600000000000001, 'news': 0.36, 'overall': 0.336}
+2025-06-28 14:34:40,008 - sentiment_analysis - INFO - Starting sentiment analysis for ETH-USD with interval 1d
+2025-06-28 14:34:40,008 - sentiment_analysis - INFO - Fetching Fear & Greed Index data for the past 7 days
+2025-06-28 14:34:40,102 - sentiment_analysis - INFO - Successfully fetched 7 Fear & Greed Index data points
+2025-06-28 14:34:40,102 - sentiment_analysis - INFO - Fetching social sentiment data for ETH-USD
+2025-06-28 14:34:40,103 - sentiment_analysis - INFO - Successfully fetched social sentiment data for ETH-USD
+2025-06-28 14:34:40,103 - sentiment_analysis - INFO - Fetching news sentiment data for ETH-USD
+2025-06-28 14:34:40,103 - sentiment_analysis - INFO - Successfully fetched news sentiment data for ETH-USD
+2025-06-28 14:34:40,103 - sentiment_analysis - INFO - Fear & Greed Index score: 0.30
+2025-06-28 14:34:40,103 - sentiment_analysis - INFO - Social sentiment score: 0.20
+2025-06-28 14:34:40,103 - sentiment_analysis - INFO - News sentiment score: 0.44
+2025-06-28 14:34:40,103 - sentiment_analysis - INFO - Sentiment analysis scores: {'fear_greed': 0.3, 'social': 0.19999999999999996, 'news': 0.44, 'overall': 0.312}
+2025-06-28 14:34:40,206 - sentiment_analysis - INFO - Starting sentiment analysis for SOL-USD with interval 1d
+2025-06-28 14:34:40,206 - sentiment_analysis - INFO - Fetching Fear & Greed Index data for the past 7 days
+2025-06-28 14:34:40,298 - sentiment_analysis - INFO - Successfully fetched 7 Fear & Greed Index data points
+2025-06-28 14:34:40,298 - sentiment_analysis - INFO - Fetching social sentiment data for SOL-USD
+2025-06-28 14:34:40,298 - sentiment_analysis - INFO - Successfully fetched social sentiment data for SOL-USD
+2025-06-28 14:34:40,298 - sentiment_analysis - INFO - Fetching news sentiment data for SOL-USD
+2025-06-28 14:34:40,299 - sentiment_analysis - INFO - Successfully fetched news sentiment data for SOL-USD
+2025-06-28 14:34:40,299 - sentiment_analysis - INFO - Fear & Greed Index score: 0.30
+2025-06-28 14:34:40,299 - sentiment_analysis - INFO - Social sentiment score: 0.44
+2025-06-28 14:34:40,299 - sentiment_analysis - INFO - News sentiment score: 0.55
+2025-06-28 14:34:40,299 - sentiment_analysis - INFO - Sentiment analysis scores: {'fear_greed': 0.3, 'social': 0.43999999999999995, 'news': 0.55, 'overall': 0.41700000000000004}
+2025-06-28 14:35:15,314 - sentiment_analysis - INFO - Starting sentiment analysis for BTC-USD with interval 1d
+2025-06-28 14:35:15,314 - sentiment_analysis - INFO - Fetching Fear & Greed Index data for the past 7 days
+2025-06-28 14:35:15,406 - sentiment_analysis - INFO - Successfully fetched 7 Fear & Greed Index data points
+2025-06-28 14:35:15,406 - sentiment_analysis - INFO - Fetching social sentiment data for BTC-USD
+2025-06-28 14:35:15,406 - sentiment_analysis - INFO - Successfully fetched social sentiment data for BTC-USD
+2025-06-28 14:35:15,406 - sentiment_analysis - INFO - Fetching news sentiment data for BTC-USD
+2025-06-28 14:35:15,406 - sentiment_analysis - INFO - Successfully fetched news sentiment data for BTC-USD
+2025-06-28 14:35:15,407 - sentiment_analysis - INFO - Fear & Greed Index score: 0.30
+2025-06-28 14:35:15,407 - sentiment_analysis - INFO - Social sentiment score: 0.36
+2025-06-28 14:35:15,407 - sentiment_analysis - INFO - News sentiment score: 0.36
+2025-06-28 14:35:15,407 - sentiment_analysis - INFO - Sentiment analysis scores: {'fear_greed': 0.3, 'social': 0.3600000000000001, 'news': 0.36, 'overall': 0.336}
+2025-06-28 14:35:15,508 - sentiment_analysis - INFO - Starting sentiment analysis for ETH-USD with interval 1d
+2025-06-28 14:35:15,508 - sentiment_analysis - INFO - Fetching Fear & Greed Index data for the past 7 days
+2025-06-28 14:35:15,604 - sentiment_analysis - INFO - Successfully fetched 7 Fear & Greed Index data points
+2025-06-28 14:35:15,604 - sentiment_analysis - INFO - Fetching social sentiment data for ETH-USD
+2025-06-28 14:35:15,604 - sentiment_analysis - INFO - Successfully fetched social sentiment data for ETH-USD
+2025-06-28 14:35:15,604 - sentiment_analysis - INFO - Fetching news sentiment data for ETH-USD
+2025-06-28 14:35:15,604 - sentiment_analysis - INFO - Successfully fetched news sentiment data for ETH-USD
+2025-06-28 14:35:15,605 - sentiment_analysis - INFO - Fear & Greed Index score: 0.30
+2025-06-28 14:35:15,605 - sentiment_analysis - INFO - Social sentiment score: 0.20
+2025-06-28 14:35:15,605 - sentiment_analysis - INFO - News sentiment score: 0.44
+2025-06-28 14:35:15,605 - sentiment_analysis - INFO - Sentiment analysis scores: {'fear_greed': 0.3, 'social': 0.19999999999999996, 'news': 0.44, 'overall': 0.312}
+2025-06-28 14:35:15,688 - sentiment_analysis - INFO - Starting sentiment analysis for BTC-USD with interval 1d
+2025-06-28 14:35:15,688 - sentiment_analysis - INFO - Fetching Fear & Greed Index data for the past 7 days
+2025-06-28 14:35:15,784 - sentiment_analysis - INFO - Successfully fetched 7 Fear & Greed Index data points
+2025-06-28 14:35:15,785 - sentiment_analysis - INFO - Fetching social sentiment data for BTC-USD
+2025-06-28 14:35:15,785 - sentiment_analysis - INFO - Successfully fetched social sentiment data for BTC-USD
+2025-06-28 14:35:15,785 - sentiment_analysis - INFO - Fetching news sentiment data for BTC-USD
+2025-06-28 14:35:15,785 - sentiment_analysis - INFO - Successfully fetched news sentiment data for BTC-USD
+2025-06-28 14:35:15,785 - sentiment_analysis - INFO - Fear & Greed Index score: 0.30
+2025-06-28 14:35:15,785 - sentiment_analysis - INFO - Social sentiment score: 0.36
+2025-06-28 14:35:15,785 - sentiment_analysis - INFO - News sentiment score: 0.36
+2025-06-28 14:35:15,785 - sentiment_analysis - INFO - Sentiment analysis scores: {'fear_greed': 0.3, 'social': 0.3600000000000001, 'news': 0.36, 'overall': 0.336}
+2025-06-28 14:35:15,870 - sentiment_analysis - INFO - Starting sentiment analysis for ETH-USD with interval 1d
+2025-06-28 14:35:15,870 - sentiment_analysis - INFO - Fetching Fear & Greed Index data for the past 7 days
+2025-06-28 14:35:15,959 - sentiment_analysis - INFO - Successfully fetched 7 Fear & Greed Index data points
+2025-06-28 14:35:15,960 - sentiment_analysis - INFO - Fetching social sentiment data for ETH-USD
+2025-06-28 14:35:15,960 - sentiment_analysis - INFO - Successfully fetched social sentiment data for ETH-USD
+2025-06-28 14:35:15,960 - sentiment_analysis - INFO - Fetching news sentiment data for ETH-USD
+2025-06-28 14:35:15,960 - sentiment_analysis - INFO - Successfully fetched news sentiment data for ETH-USD
+2025-06-28 14:35:15,960 - sentiment_analysis - INFO - Fear & Greed Index score: 0.30
+2025-06-28 14:35:15,960 - sentiment_analysis - INFO - Social sentiment score: 0.20
+2025-06-28 14:35:15,960 - sentiment_analysis - INFO - News sentiment score: 0.44
+2025-06-28 14:35:15,960 - sentiment_analysis - INFO - Sentiment analysis scores: {'fear_greed': 0.3, 'social': 0.19999999999999996, 'news': 0.44, 'overall': 0.312}
+2025-06-28 14:35:16,045 - sentiment_analysis - INFO - Starting sentiment analysis for BTC-USD with interval 1d
+2025-06-28 14:35:16,045 - sentiment_analysis - INFO - Fetching Fear & Greed Index data for the past 7 days
+2025-06-28 14:35:16,136 - sentiment_analysis - INFO - Successfully fetched 7 Fear & Greed Index data points
+2025-06-28 14:35:16,137 - sentiment_analysis - INFO - Fetching social sentiment data for BTC-USD
+2025-06-28 14:35:16,137 - sentiment_analysis - INFO - Successfully fetched social sentiment data for BTC-USD
+2025-06-28 14:35:16,137 - sentiment_analysis - INFO - Fetching news sentiment data for BTC-USD
+2025-06-28 14:35:16,137 - sentiment_analysis - INFO - Successfully fetched news sentiment data for BTC-USD
+2025-06-28 14:35:16,137 - sentiment_analysis - INFO - Fear & Greed Index score: 0.30
+2025-06-28 14:35:16,137 - sentiment_analysis - INFO - Social sentiment score: 0.36
+2025-06-28 14:35:16,137 - sentiment_analysis - INFO - News sentiment score: 0.36
+2025-06-28 14:35:16,137 - sentiment_analysis - INFO - Sentiment analysis scores: {'fear_greed': 0.3, 'social': 0.3600000000000001, 'news': 0.36, 'overall': 0.336}
+2025-06-28 14:35:16,284 - sentiment_analysis - INFO - Starting sentiment analysis for ETH-USD with interval 1d
+2025-06-28 14:35:16,284 - sentiment_analysis - INFO - Fetching Fear & Greed Index data for the past 7 days
+2025-06-28 14:35:16,374 - sentiment_analysis - INFO - Successfully fetched 7 Fear & Greed Index data points
+2025-06-28 14:35:16,375 - sentiment_analysis - INFO - Fetching social sentiment data for ETH-USD
+2025-06-28 14:35:16,375 - sentiment_analysis - INFO - Successfully fetched social sentiment data for ETH-USD
+2025-06-28 14:35:16,375 - sentiment_analysis - INFO - Fetching news sentiment data for ETH-USD
+2025-06-28 14:35:16,375 - sentiment_analysis - INFO - Successfully fetched news sentiment data for ETH-USD
+2025-06-28 14:35:16,375 - sentiment_analysis - INFO - Fear & Greed Index score: 0.30
+2025-06-28 14:35:16,375 - sentiment_analysis - INFO - Social sentiment score: 0.20
+2025-06-28 14:35:16,375 - sentiment_analysis - INFO - News sentiment score: 0.44
+2025-06-28 14:35:16,375 - sentiment_analysis - INFO - Sentiment analysis scores: {'fear_greed': 0.3, 'social': 0.19999999999999996, 'news': 0.44, 'overall': 0.312}
+2025-06-28 14:35:16,479 - sentiment_analysis - INFO - Starting sentiment analysis for SOL-USD with interval 1d
+2025-06-28 14:35:16,479 - sentiment_analysis - INFO - Fetching Fear & Greed Index data for the past 7 days
+2025-06-28 14:35:16,570 - sentiment_analysis - INFO - Successfully fetched 7 Fear & Greed Index data points
+2025-06-28 14:35:16,570 - sentiment_analysis - INFO - Fetching social sentiment data for SOL-USD
+2025-06-28 14:35:16,570 - sentiment_analysis - INFO - Successfully fetched social sentiment data for SOL-USD
+2025-06-28 14:35:16,570 - sentiment_analysis - INFO - Fetching news sentiment data for SOL-USD
+2025-06-28 14:35:16,570 - sentiment_analysis - INFO - Successfully fetched news sentiment data for SOL-USD
+2025-06-28 14:35:16,570 - sentiment_analysis - INFO - Fear & Greed Index score: 0.30
+2025-06-28 14:35:16,570 - sentiment_analysis - INFO - Social sentiment score: 0.44
+2025-06-28 14:35:16,571 - sentiment_analysis - INFO - News sentiment score: 0.55
+2025-06-28 14:35:16,571 - sentiment_analysis - INFO - Sentiment analysis scores: {'fear_greed': 0.3, 'social': 0.43999999999999995, 'news': 0.55, 'overall': 0.41700000000000004}
+2025-06-28 14:35:39,668 - sentiment_analysis - INFO - Starting sentiment analysis for BTC-USD with interval 1d
+2025-06-28 14:35:39,668 - sentiment_analysis - INFO - Fetching Fear & Greed Index data for the past 7 days
+2025-06-28 14:35:39,760 - sentiment_analysis - INFO - Successfully fetched 7 Fear & Greed Index data points
+2025-06-28 14:35:39,760 - sentiment_analysis - INFO - Fetching social sentiment data for BTC-USD
+2025-06-28 14:35:39,760 - sentiment_analysis - INFO - Successfully fetched social sentiment data for BTC-USD
+2025-06-28 14:35:39,760 - sentiment_analysis - INFO - Fetching news sentiment data for BTC-USD
+2025-06-28 14:35:39,760 - sentiment_analysis - INFO - Successfully fetched news sentiment data for BTC-USD
+2025-06-28 14:35:39,760 - sentiment_analysis - INFO - Fear & Greed Index score: 0.30
+2025-06-28 14:35:39,760 - sentiment_analysis - INFO - Social sentiment score: 0.36
+2025-06-28 14:35:39,760 - sentiment_analysis - INFO - News sentiment score: 0.36
+2025-06-28 14:35:39,761 - sentiment_analysis - INFO - Sentiment analysis scores: {'fear_greed': 0.3, 'social': 0.3600000000000001, 'news': 0.36, 'overall': 0.336}
+2025-06-28 14:35:40,009 - sentiment_analysis - INFO - Starting sentiment analysis for BTC-USD with interval 1d
+2025-06-28 14:35:40,009 - sentiment_analysis - INFO - Fetching Fear & Greed Index data for the past 7 days
+2025-06-28 14:35:40,101 - sentiment_analysis - INFO - Successfully fetched 7 Fear & Greed Index data points
+2025-06-28 14:35:40,102 - sentiment_analysis - INFO - Fetching social sentiment data for BTC-USD
+2025-06-28 14:35:40,102 - sentiment_analysis - INFO - Successfully fetched social sentiment data for BTC-USD
+2025-06-28 14:35:40,102 - sentiment_analysis - INFO - Fetching news sentiment data for BTC-USD
+2025-06-28 14:35:40,102 - sentiment_analysis - INFO - Successfully fetched news sentiment data for BTC-USD
+2025-06-28 14:35:40,102 - sentiment_analysis - INFO - Fear & Greed Index score: 0.30
+2025-06-28 14:35:40,102 - sentiment_analysis - INFO - Social sentiment score: 0.36
+2025-06-28 14:35:40,102 - sentiment_analysis - INFO - News sentiment score: 0.36
+2025-06-28 14:35:40,102 - sentiment_analysis - INFO - Sentiment analysis scores: {'fear_greed': 0.3, 'social': 0.3600000000000001, 'news': 0.36, 'overall': 0.336}
+2025-06-28 14:35:40,251 - sentiment_analysis - INFO - Starting sentiment analysis for BTC-USD with interval 1d
+2025-06-28 14:35:40,251 - sentiment_analysis - INFO - Fetching Fear & Greed Index data for the past 7 days
+2025-06-28 14:35:40,346 - sentiment_analysis - INFO - Successfully fetched 7 Fear & Greed Index data points
+2025-06-28 14:35:40,346 - sentiment_analysis - INFO - Fetching social sentiment data for BTC-USD
+2025-06-28 14:35:40,346 - sentiment_analysis - INFO - Successfully fetched social sentiment data for BTC-USD
+2025-06-28 14:35:40,346 - sentiment_analysis - INFO - Fetching news sentiment data for BTC-USD
+2025-06-28 14:35:40,346 - sentiment_analysis - INFO - Successfully fetched news sentiment data for BTC-USD
+2025-06-28 14:35:40,346 - sentiment_analysis - INFO - Fear & Greed Index score: 0.30
+2025-06-28 14:35:40,346 - sentiment_analysis - INFO - Social sentiment score: 0.36
+2025-06-28 14:35:40,346 - sentiment_analysis - INFO - News sentiment score: 0.36
+2025-06-28 14:35:40,346 - sentiment_analysis - INFO - Sentiment analysis scores: {'fear_greed': 0.3, 'social': 0.3600000000000001, 'news': 0.36, 'overall': 0.336}
+2025-06-28 14:35:40,428 - sentiment_analysis - INFO - Starting sentiment analysis for ETH-USD with interval 1d
+2025-06-28 14:35:40,428 - sentiment_analysis - INFO - Fetching Fear & Greed Index data for the past 7 days
+2025-06-28 14:35:40,522 - sentiment_analysis - INFO - Successfully fetched 7 Fear & Greed Index data points
+2025-06-28 14:35:40,522 - sentiment_analysis - INFO - Fetching social sentiment data for ETH-USD
+2025-06-28 14:35:40,522 - sentiment_analysis - INFO - Successfully fetched social sentiment data for ETH-USD
+2025-06-28 14:35:40,522 - sentiment_analysis - INFO - Fetching news sentiment data for ETH-USD
+2025-06-28 14:35:40,522 - sentiment_analysis - INFO - Successfully fetched news sentiment data for ETH-USD
+2025-06-28 14:35:40,522 - sentiment_analysis - INFO - Fear & Greed Index score: 0.30
+2025-06-28 14:35:40,522 - sentiment_analysis - INFO - Social sentiment score: 0.20
+2025-06-28 14:35:40,522 - sentiment_analysis - INFO - News sentiment score: 0.44
+2025-06-28 14:35:40,522 - sentiment_analysis - INFO - Sentiment analysis scores: {'fear_greed': 0.3, 'social': 0.19999999999999996, 'news': 0.44, 'overall': 0.312}
+2025-06-28 14:35:40,684 - sentiment_analysis - INFO - Starting sentiment analysis for SOL-USD with interval 1d
+2025-06-28 14:35:40,684 - sentiment_analysis - INFO - Fetching Fear & Greed Index data for the past 7 days
+2025-06-28 14:35:40,773 - sentiment_analysis - INFO - Successfully fetched 7 Fear & Greed Index data points
+2025-06-28 14:35:40,774 - sentiment_analysis - INFO - Fetching social sentiment data for SOL-USD
+2025-06-28 14:35:40,774 - sentiment_analysis - INFO - Successfully fetched social sentiment data for SOL-USD
+2025-06-28 14:35:40,774 - sentiment_analysis - INFO - Fetching news sentiment data for SOL-USD
+2025-06-28 14:35:40,774 - sentiment_analysis - INFO - Successfully fetched news sentiment data for SOL-USD
+2025-06-28 14:35:40,774 - sentiment_analysis - INFO - Fear & Greed Index score: 0.30
+2025-06-28 14:35:40,774 - sentiment_analysis - INFO - Social sentiment score: 0.44
+2025-06-28 14:35:40,774 - sentiment_analysis - INFO - News sentiment score: 0.55
+2025-06-28 14:35:40,774 - sentiment_analysis - INFO - Sentiment analysis scores: {'fear_greed': 0.3, 'social': 0.43999999999999995, 'news': 0.55, 'overall': 0.41700000000000004}
+2025-06-28 15:18:46,060 - sentiment_analysis - INFO - Starting sentiment analysis for BTC-USD with interval 1d
+2025-06-28 15:18:46,060 - sentiment_analysis - INFO - Fetching Fear & Greed Index data for the past 7 days
+2025-06-28 15:18:46,162 - sentiment_analysis - INFO - Successfully fetched 7 Fear & Greed Index data points
+2025-06-28 15:18:46,163 - sentiment_analysis - INFO - Fetching social sentiment data for BTC-USD
+2025-06-28 15:18:46,163 - sentiment_analysis - INFO - Successfully fetched social sentiment data for BTC-USD
+2025-06-28 15:18:46,163 - sentiment_analysis - INFO - Fetching news sentiment data for BTC-USD
+2025-06-28 15:18:46,163 - sentiment_analysis - INFO - Successfully fetched news sentiment data for BTC-USD
+2025-06-28 15:18:46,163 - sentiment_analysis - INFO - Fear & Greed Index score: 0.30
+2025-06-28 15:18:46,163 - sentiment_analysis - INFO - Social sentiment score: 0.36
+2025-06-28 15:18:46,163 - sentiment_analysis - INFO - News sentiment score: 0.36
+2025-06-28 15:18:46,163 - sentiment_analysis - INFO - Sentiment analysis scores: {'fear_greed': 0.3, 'social': 0.3600000000000001, 'news': 0.36, 'overall': 0.336}
+2025-06-28 15:18:46,392 - sentiment_analysis - INFO - Starting sentiment analysis for BTC-USD with interval 1d
+2025-06-28 15:18:46,392 - sentiment_analysis - INFO - Fetching Fear & Greed Index data for the past 7 days
+2025-06-28 15:18:46,396 - sentiment_analysis - INFO - Starting sentiment analysis for SOL-USD with interval 1d
+2025-06-28 15:18:46,396 - sentiment_analysis - INFO - Fetching Fear & Greed Index data for the past 7 days
+2025-06-28 15:18:46,472 - sentiment_analysis - INFO - Starting sentiment analysis for ETH-USD with interval 1d
+2025-06-28 15:18:46,473 - sentiment_analysis - INFO - Fetching Fear & Greed Index data for the past 7 days
+2025-06-28 15:18:46,486 - sentiment_analysis - INFO - Successfully fetched 7 Fear & Greed Index data points
+2025-06-28 15:18:46,487 - sentiment_analysis - INFO - Fetching social sentiment data for BTC-USD
+2025-06-28 15:18:46,487 - sentiment_analysis - INFO - Successfully fetched social sentiment data for BTC-USD
+2025-06-28 15:18:46,487 - sentiment_analysis - INFO - Fetching news sentiment data for BTC-USD
+2025-06-28 15:18:46,487 - sentiment_analysis - INFO - Successfully fetched news sentiment data for BTC-USD
+2025-06-28 15:18:46,487 - sentiment_analysis - INFO - Fear & Greed Index score: 0.30
+2025-06-28 15:18:46,487 - sentiment_analysis - INFO - Social sentiment score: 0.36
+2025-06-28 15:18:46,487 - sentiment_analysis - INFO - News sentiment score: 0.36
+2025-06-28 15:18:46,487 - sentiment_analysis - INFO - Sentiment analysis scores: {'fear_greed': 0.3, 'social': 0.3600000000000001, 'news': 0.36, 'overall': 0.336}
+2025-06-28 15:18:46,492 - sentiment_analysis - INFO - Successfully fetched 7 Fear & Greed Index data points
+2025-06-28 15:18:46,493 - sentiment_analysis - INFO - Fetching social sentiment data for SOL-USD
+2025-06-28 15:18:46,493 - sentiment_analysis - INFO - Successfully fetched social sentiment data for SOL-USD
+2025-06-28 15:18:46,493 - sentiment_analysis - INFO - Fetching news sentiment data for SOL-USD
+2025-06-28 15:18:46,493 - sentiment_analysis - INFO - Successfully fetched news sentiment data for SOL-USD
+2025-06-28 15:18:46,493 - sentiment_analysis - INFO - Fear & Greed Index score: 0.30
+2025-06-28 15:18:46,493 - sentiment_analysis - INFO - Social sentiment score: 0.44
+2025-06-28 15:18:46,493 - sentiment_analysis - INFO - News sentiment score: 0.55
+2025-06-28 15:18:46,493 - sentiment_analysis - INFO - Sentiment analysis scores: {'fear_greed': 0.3, 'social': 0.43999999999999995, 'news': 0.55, 'overall': 0.41700000000000004}
+2025-06-28 15:18:46,566 - sentiment_analysis - INFO - Successfully fetched 7 Fear & Greed Index data points
+2025-06-28 15:18:46,567 - sentiment_analysis - INFO - Fetching social sentiment data for ETH-USD
+2025-06-28 15:18:46,567 - sentiment_analysis - INFO - Successfully fetched social sentiment data for ETH-USD
+2025-06-28 15:18:46,567 - sentiment_analysis - INFO - Fetching news sentiment data for ETH-USD
+2025-06-28 15:18:46,567 - sentiment_analysis - INFO - Successfully fetched news sentiment data for ETH-USD
+2025-06-28 15:18:46,567 - sentiment_analysis - INFO - Fear & Greed Index score: 0.30
+2025-06-28 15:18:46,567 - sentiment_analysis - INFO - Social sentiment score: 0.20
+2025-06-28 15:18:46,567 - sentiment_analysis - INFO - News sentiment score: 0.44
+2025-06-28 15:18:46,567 - sentiment_analysis - INFO - Sentiment analysis scores: {'fear_greed': 0.3, 'social': 0.19999999999999996, 'news': 0.44, 'overall': 0.312}
+2025-06-28 15:18:46,882 - sentiment_analysis - INFO - Starting sentiment analysis for SOL-USD with interval 1d
+2025-06-28 15:18:46,882 - sentiment_analysis - INFO - Fetching Fear & Greed Index data for the past 7 days
+2025-06-28 15:18:46,898 - sentiment_analysis - INFO - Starting sentiment analysis for BTC-USD with interval 1d
+2025-06-28 15:18:46,916 - sentiment_analysis - INFO - Fetching Fear & Greed Index data for the past 7 days
+2025-06-28 15:18:46,920 - sentiment_analysis - INFO - Starting sentiment analysis for ETH-USD with interval 1d
+2025-06-28 15:18:46,920 - sentiment_analysis - INFO - Fetching Fear & Greed Index data for the past 7 days
+2025-06-28 15:18:47,000 - sentiment_analysis - INFO - Successfully fetched 7 Fear & Greed Index data points
+2025-06-28 15:18:47,001 - sentiment_analysis - INFO - Fetching social sentiment data for SOL-USD
+2025-06-28 15:18:47,001 - sentiment_analysis - INFO - Successfully fetched social sentiment data for SOL-USD
+2025-06-28 15:18:47,001 - sentiment_analysis - INFO - Fetching news sentiment data for SOL-USD
+2025-06-28 15:18:47,001 - sentiment_analysis - INFO - Successfully fetched news sentiment data for SOL-USD
+2025-06-28 15:18:47,001 - sentiment_analysis - INFO - Fear & Greed Index score: 0.30
+2025-06-28 15:18:47,001 - sentiment_analysis - INFO - Social sentiment score: 0.44
+2025-06-28 15:18:47,001 - sentiment_analysis - INFO - News sentiment score: 0.55
+2025-06-28 15:18:47,001 - sentiment_analysis - INFO - Sentiment analysis scores: {'fear_greed': 0.3, 'social': 0.43999999999999995, 'news': 0.55, 'overall': 0.41700000000000004}
+2025-06-28 15:18:47,024 - sentiment_analysis - INFO - Successfully fetched 7 Fear & Greed Index data points
+2025-06-28 15:18:47,036 - sentiment_analysis - INFO - Fetching social sentiment data for ETH-USD
+2025-06-28 15:18:47,036 - sentiment_analysis - INFO - Successfully fetched social sentiment data for ETH-USD
+2025-06-28 15:18:47,047 - sentiment_analysis - INFO - Fetching news sentiment data for ETH-USD
+2025-06-28 15:18:47,047 - sentiment_analysis - INFO - Successfully fetched news sentiment data for ETH-USD
+2025-06-28 15:18:47,047 - sentiment_analysis - INFO - Fear & Greed Index score: 0.30
+2025-06-28 15:18:47,047 - sentiment_analysis - INFO - Social sentiment score: 0.20
+2025-06-28 15:18:47,047 - sentiment_analysis - INFO - News sentiment score: 0.44
+2025-06-28 15:18:47,047 - sentiment_analysis - INFO - Sentiment analysis scores: {'fear_greed': 0.3, 'social': 0.19999999999999996, 'news': 0.44, 'overall': 0.312}
+2025-06-28 15:18:47,050 - sentiment_analysis - INFO - Successfully fetched 7 Fear & Greed Index data points
+2025-06-28 15:18:47,051 - sentiment_analysis - INFO - Fetching social sentiment data for BTC-USD
+2025-06-28 15:18:47,051 - sentiment_analysis - INFO - Successfully fetched social sentiment data for BTC-USD
+2025-06-28 15:18:47,051 - sentiment_analysis - INFO - Fetching news sentiment data for BTC-USD
+2025-06-28 15:18:47,051 - sentiment_analysis - INFO - Successfully fetched news sentiment data for BTC-USD
+2025-06-28 15:18:47,052 - sentiment_analysis - INFO - Fear & Greed Index score: 0.30
+2025-06-28 15:18:47,052 - sentiment_analysis - INFO - Social sentiment score: 0.36
+2025-06-28 15:18:47,052 - sentiment_analysis - INFO - News sentiment score: 0.36
+2025-06-28 15:18:47,052 - sentiment_analysis - INFO - Sentiment analysis scores: {'fear_greed': 0.3, 'social': 0.3600000000000001, 'news': 0.36, 'overall': 0.336}
+2025-06-28 15:18:47,189 - sentiment_analysis - INFO - Starting sentiment analysis for BTC-USD with interval 1d
+2025-06-28 15:18:47,189 - sentiment_analysis - INFO - Fetching Fear & Greed Index data for the past 7 days
+2025-06-28 15:18:47,242 - sentiment_analysis - INFO - Starting sentiment analysis for SOL-USD with interval 1d
+2025-06-28 15:18:47,242 - sentiment_analysis - INFO - Fetching Fear & Greed Index data for the past 7 days
+2025-06-28 15:18:47,282 - sentiment_analysis - INFO - Successfully fetched 7 Fear & Greed Index data points
+2025-06-28 15:18:47,282 - sentiment_analysis - INFO - Fetching social sentiment data for BTC-USD
+2025-06-28 15:18:47,282 - sentiment_analysis - INFO - Successfully fetched social sentiment data for BTC-USD
+2025-06-28 15:18:47,282 - sentiment_analysis - INFO - Fetching news sentiment data for BTC-USD
+2025-06-28 15:18:47,282 - sentiment_analysis - INFO - Successfully fetched news sentiment data for BTC-USD
+2025-06-28 15:18:47,282 - sentiment_analysis - INFO - Fear & Greed Index score: 0.30
+2025-06-28 15:18:47,282 - sentiment_analysis - INFO - Social sentiment score: 0.36
+2025-06-28 15:18:47,282 - sentiment_analysis - INFO - News sentiment score: 0.36
+2025-06-28 15:18:47,282 - sentiment_analysis - INFO - Sentiment analysis scores: {'fear_greed': 0.3, 'social': 0.3600000000000001, 'news': 0.36, 'overall': 0.336}
+2025-06-28 15:18:47,323 - sentiment_analysis - INFO - Starting sentiment analysis for ETH-USD with interval 1d
+2025-06-28 15:18:47,323 - sentiment_analysis - INFO - Fetching Fear & Greed Index data for the past 7 days
+2025-06-28 15:18:47,334 - sentiment_analysis - INFO - Successfully fetched 7 Fear & Greed Index data points
+2025-06-28 15:18:47,334 - sentiment_analysis - INFO - Fetching social sentiment data for SOL-USD
+2025-06-28 15:18:47,334 - sentiment_analysis - INFO - Successfully fetched social sentiment data for SOL-USD
+2025-06-28 15:18:47,334 - sentiment_analysis - INFO - Fetching news sentiment data for SOL-USD
+2025-06-28 15:18:47,334 - sentiment_analysis - INFO - Successfully fetched news sentiment data for SOL-USD
+2025-06-28 15:18:47,334 - sentiment_analysis - INFO - Fear & Greed Index score: 0.30
+2025-06-28 15:18:47,334 - sentiment_analysis - INFO - Social sentiment score: 0.44
+2025-06-28 15:18:47,334 - sentiment_analysis - INFO - News sentiment score: 0.55
+2025-06-28 15:18:47,335 - sentiment_analysis - INFO - Sentiment analysis scores: {'fear_greed': 0.3, 'social': 0.43999999999999995, 'news': 0.55, 'overall': 0.41700000000000004}
+2025-06-28 15:18:47,416 - sentiment_analysis - INFO - Successfully fetched 7 Fear & Greed Index data points
+2025-06-28 15:18:47,417 - sentiment_analysis - INFO - Fetching social sentiment data for ETH-USD
+2025-06-28 15:18:47,417 - sentiment_analysis - INFO - Successfully fetched social sentiment data for ETH-USD
+2025-06-28 15:18:47,417 - sentiment_analysis - INFO - Fetching news sentiment data for ETH-USD
+2025-06-28 15:18:47,417 - sentiment_analysis - INFO - Successfully fetched news sentiment data for ETH-USD
+2025-06-28 15:18:47,417 - sentiment_analysis - INFO - Fear & Greed Index score: 0.30
+2025-06-28 15:18:47,417 - sentiment_analysis - INFO - Social sentiment score: 0.20
+2025-06-28 15:18:47,417 - sentiment_analysis - INFO - News sentiment score: 0.44
+2025-06-28 15:18:47,417 - sentiment_analysis - INFO - Sentiment analysis scores: {'fear_greed': 0.3, 'social': 0.19999999999999996, 'news': 0.44, 'overall': 0.312}

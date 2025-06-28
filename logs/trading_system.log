@@ -1,0 +1,191 @@
+2025-06-28 13:54:45,693 - e2e_test - INFO - Running all end-to-end tests with interval 1h
+2025-06-28 13:54:45,693 - e2e_test - INFO - Testing data collection for 5 symbols with interval 1h
+2025-06-28 13:55:45,039 - e2e_test - INFO - Running all end-to-end tests with interval 1h
+2025-06-28 13:55:45,039 - e2e_test - INFO - Testing data collection for 5 symbols with interval 1h
+2025-06-28 13:55:45,039 - crypto_trading_system - WARNING - Coinbase API credentials not provided. Some functionality will be limited.
+2025-06-28 13:55:45,039 - e2e_test - ERROR - Error fetching data for BTC-USD: 'CoinbaseClient' object has no attribute 'get_candles'
+2025-06-28 13:55:45,039 - e2e_test - ERROR - Error fetching data for ETH-USD: 'CoinbaseClient' object has no attribute 'get_candles'
+2025-06-28 13:55:45,039 - e2e_test - ERROR - Error fetching data for SOL-USD: 'CoinbaseClient' object has no attribute 'get_candles'
+2025-06-28 13:55:45,039 - e2e_test - ERROR - Error fetching data for ADA-USD: 'CoinbaseClient' object has no attribute 'get_candles'
+2025-06-28 13:55:45,039 - e2e_test - ERROR - Error fetching data for XRP-USD: 'CoinbaseClient' object has no attribute 'get_candles'
+2025-06-28 13:55:45,039 - e2e_test - INFO - Data collection test completed with 0% success rate
+2025-06-28 13:55:45,039 - e2e_test - INFO - Data collection test: FAILED
+2025-06-28 13:55:45,039 - e2e_test - INFO - Testing analysis pipeline for 5 symbols with interval 1h
+2025-06-28 13:55:45,039 - crypto_trading_system - WARNING - Coinbase API credentials not provided. Some functionality will be limited.
+2025-06-28 13:55:45,039 - crypto_trading_system - WARNING - Coinbase API credentials not provided. Some functionality will be limited.
+2025-06-28 13:55:45,040 - crypto_trading_system - INFO - Starting analysis for BTC-USD
+2025-06-28 13:55:45,239 - crypto_trading_system - WARNING - No candle data available for BTC-USD
+2025-06-28 13:55:45,456 - crypto_trading_system - INFO - Analysis completed for BTC-USD. Signal: NEUTRAL, Score: -0.15, Confidence: 1.00
+2025-06-28 13:55:45,456 - e2e_test - INFO - Successfully analyzed BTC-USD: TradingSignal.NEUTRAL
+2025-06-28 13:55:45,456 - crypto_trading_system - INFO - Starting analysis for ETH-USD
+2025-06-28 13:55:45,658 - crypto_trading_system - WARNING - No candle data available for ETH-USD
+2025-06-28 13:55:45,877 - crypto_trading_system - INFO - Analysis completed for ETH-USD. Signal: NEUTRAL, Score: -0.25, Confidence: 1.00
+2025-06-28 13:55:45,878 - e2e_test - INFO - Successfully analyzed ETH-USD: TradingSignal.NEUTRAL
+2025-06-28 13:55:45,878 - crypto_trading_system - INFO - Starting analysis for SOL-USD
+2025-06-28 13:55:46,016 - crypto_trading_system - WARNING - No candle data available for SOL-USD
+2025-06-28 13:55:46,101 - crypto_trading_system - WARNING - CoinGecko API rate limit reached. Retrying after delay.
+2025-06-28 13:56:46,262 - crypto_trading_system - INFO - Analysis completed for SOL-USD. Signal: NEUTRAL, Score: -0.15, Confidence: 1.00
+2025-06-28 13:56:46,262 - e2e_test - INFO - Successfully analyzed SOL-USD: TradingSignal.NEUTRAL
+2025-06-28 13:56:46,262 - crypto_trading_system - INFO - Starting analysis for ADA-USD
+2025-06-28 13:56:46,445 - crypto_trading_system - WARNING - No candle data available for ADA-USD
+2025-06-28 13:56:46,667 - crypto_trading_system - INFO - Analysis completed for ADA-USD. Signal: NEUTRAL, Score: -0.50, Confidence: 1.00
+2025-06-28 13:56:46,667 - e2e_test - INFO - Successfully analyzed ADA-USD: TradingSignal.NEUTRAL
+2025-06-28 13:56:46,667 - crypto_trading_system - INFO - Starting analysis for XRP-USD
+2025-06-28 13:56:46,853 - crypto_trading_system - WARNING - No candle data available for XRP-USD
+2025-06-28 13:56:46,939 - crypto_trading_system - WARNING - CoinGecko API rate limit reached. Retrying after delay.
+2025-06-28 13:57:47,102 - crypto_trading_system - INFO - Analysis completed for XRP-USD. Signal: NEUTRAL, Score: -0.40, Confidence: 1.00
+2025-06-28 13:57:47,102 - e2e_test - INFO - Successfully analyzed XRP-USD: TradingSignal.NEUTRAL
+2025-06-28 13:57:47,102 - crypto_trading_system - ERROR - Error saving to JSON file e2e_test_results.json: [Errno 2] No such file or directory: ''
+2025-06-28 13:57:47,102 - e2e_test - INFO - Analysis pipeline test completed with 100% success rate
+2025-06-28 13:57:47,102 - e2e_test - INFO - Analysis pipeline test: PASSED
+2025-06-28 13:57:47,103 - e2e_test - INFO - Testing trading engine for 5 symbols with interval 1h
+2025-06-28 13:57:47,103 - crypto_trading_system - WARNING - Coinbase API credentials not provided. Some functionality will be limited.
+2025-06-28 13:57:47,103 - crypto_trading_system - WARNING - Coinbase API credentials not provided. Some functionality will be limited.
+2025-06-28 13:57:47,103 - crypto_trading_system - WARNING - Coinbase API credentials not provided. Some functionality will be limited.
+2025-06-28 13:57:47,103 - crypto_trading_system - INFO - Starting analysis for BTC-USD
+2025-06-28 13:57:47,265 - crypto_trading_system - WARNING - No candle data available for BTC-USD
+2025-06-28 13:57:47,470 - crypto_trading_system - INFO - Analysis completed for BTC-USD. Signal: NEUTRAL, Score: -0.15, Confidence: 1.00
+2025-06-28 13:57:47,470 - trading_engine - INFO - Executing trade strategy for BTC-USD with signal TradingSignal.NEUTRAL
+2025-06-28 13:57:47,471 - trading_engine - ERROR - Error executing trade strategy: 'CoinbaseClient' object has no attribute 'get_product'
+2025-06-28 13:57:47,471 - e2e_test - INFO - Successfully tested trading for BTC-USD: SIMULATED
+2025-06-28 13:57:47,471 - crypto_trading_system - INFO - Starting analysis for ETH-USD
+2025-06-28 13:57:47,672 - crypto_trading_system - WARNING - No candle data available for ETH-USD
+2025-06-28 13:57:47,872 - crypto_trading_system - INFO - Analysis completed for ETH-USD. Signal: NEUTRAL, Score: -0.25, Confidence: 1.00
+2025-06-28 13:57:47,872 - trading_engine - INFO - Executing trade strategy for ETH-USD with signal TradingSignal.NEUTRAL
+2025-06-28 13:57:47,872 - trading_engine - ERROR - Error executing trade strategy: 'CoinbaseClient' object has no attribute 'get_product'
+2025-06-28 13:57:47,872 - e2e_test - INFO - Successfully tested trading for ETH-USD: SIMULATED
+2025-06-28 13:57:47,872 - crypto_trading_system - INFO - Starting analysis for SOL-USD
+2025-06-28 13:57:47,933 - crypto_trading_system - WARNING - CoinGecko API rate limit reached. Retrying after delay.
+2025-06-28 13:58:48,081 - crypto_trading_system - WARNING - No candle data available for SOL-USD
+2025-06-28 13:58:48,297 - crypto_trading_system - INFO - Analysis completed for SOL-USD. Signal: NEUTRAL, Score: -0.15, Confidence: 1.00
+2025-06-28 13:58:48,297 - trading_engine - INFO - Executing trade strategy for SOL-USD with signal TradingSignal.NEUTRAL
+2025-06-28 13:58:48,297 - trading_engine - ERROR - Error executing trade strategy: 'CoinbaseClient' object has no attribute 'get_product'
+2025-06-28 13:58:48,297 - e2e_test - INFO - Successfully tested trading for SOL-USD: SIMULATED
+2025-06-28 13:58:48,297 - crypto_trading_system - INFO - Starting analysis for ADA-USD
+2025-06-28 13:58:48,496 - crypto_trading_system - WARNING - No candle data available for ADA-USD
+2025-06-28 13:58:48,697 - crypto_trading_system - INFO - Analysis completed for ADA-USD. Signal: NEUTRAL, Score: -0.50, Confidence: 1.00
+2025-06-28 13:58:48,697 - trading_engine - INFO - Executing trade strategy for ADA-USD with signal TradingSignal.NEUTRAL
+2025-06-28 13:58:48,697 - trading_engine - ERROR - Error executing trade strategy: 'CoinbaseClient' object has no attribute 'get_product'
+2025-06-28 13:58:48,697 - e2e_test - INFO - Successfully tested trading for ADA-USD: SIMULATED
+2025-06-28 13:58:48,697 - crypto_trading_system - INFO - Starting analysis for XRP-USD
+2025-06-28 13:58:48,889 - crypto_trading_system - WARNING - No candle data available for XRP-USD
+2025-06-28 13:58:48,979 - crypto_trading_system - WARNING - CoinGecko API rate limit reached. Retrying after delay.
+2025-06-28 13:58:49,966 - e2e_test - INFO - Running all end-to-end tests with interval 1h
+2025-06-28 13:58:49,967 - e2e_test - INFO - Testing data collection for 5 symbols with interval 1h
+2025-06-28 13:58:49,967 - crypto_trading_system - WARNING - Coinbase API credentials not provided. Some functionality will be limited.
+2025-06-28 13:58:49,967 - e2e_test - ERROR - Error fetching data for BTC-USD: 'CoinbaseClient' object has no attribute 'get_candles'
+2025-06-28 13:58:49,967 - e2e_test - ERROR - Error fetching data for ETH-USD: 'CoinbaseClient' object has no attribute 'get_candles'
+2025-06-28 13:58:49,967 - e2e_test - ERROR - Error fetching data for SOL-USD: 'CoinbaseClient' object has no attribute 'get_candles'
+2025-06-28 13:58:49,967 - e2e_test - ERROR - Error fetching data for ADA-USD: 'CoinbaseClient' object has no attribute 'get_candles'
+2025-06-28 13:58:49,967 - e2e_test - ERROR - Error fetching data for XRP-USD: 'CoinbaseClient' object has no attribute 'get_candles'
+2025-06-28 13:58:49,967 - e2e_test - INFO - Data collection test completed with 0% success rate
+2025-06-28 13:58:49,967 - e2e_test - INFO - Data collection test: FAILED
+2025-06-28 13:58:49,967 - e2e_test - INFO - Testing analysis pipeline for 5 symbols with interval 1h
+2025-06-28 13:58:49,967 - crypto_trading_system - WARNING - Coinbase API credentials not provided. Some functionality will be limited.
+2025-06-28 13:58:49,967 - crypto_trading_system - WARNING - Coinbase API credentials not provided. Some functionality will be limited.
+2025-06-28 13:58:49,967 - crypto_trading_system - INFO - Starting analysis for BTC-USD
+2025-06-28 13:58:50,022 - crypto_trading_system - WARNING - CoinGecko API rate limit reached. Retrying after delay.
+2025-06-28 13:59:49,124 - crypto_trading_system - INFO - Analysis completed for XRP-USD. Signal: NEUTRAL, Score: -0.40, Confidence: 1.00
+2025-06-28 13:59:49,125 - trading_engine - INFO - Executing trade strategy for XRP-USD with signal TradingSignal.NEUTRAL
+2025-06-28 13:59:49,125 - trading_engine - ERROR - Error executing trade strategy: 'CoinbaseClient' object has no attribute 'get_product'
+2025-06-28 13:59:49,125 - e2e_test - INFO - Successfully tested trading for XRP-USD: SIMULATED
+2025-06-28 13:59:49,125 - e2e_test - INFO - Trading engine test completed with 100% success rate
+2025-06-28 13:59:49,125 - e2e_test - INFO - Trading engine test: PASSED
+2025-06-28 13:59:49,125 - e2e_test - INFO - Testing UI data integration
+2025-06-28 13:59:49,125 - crypto_trading_system - WARNING - Coinbase API credentials not provided. Some functionality will be limited.
+2025-06-28 13:59:49,125 - crypto_trading_system - WARNING - Coinbase API credentials not provided. Some functionality will be limited.
+2025-06-28 13:59:49,125 - crypto_trading_system - INFO - Starting analysis for BTC-USD
+2025-06-28 13:59:49,325 - crypto_trading_system - WARNING - No candle data available for BTC-USD
+2025-06-28 13:59:49,529 - crypto_trading_system - INFO - Analysis completed for BTC-USD. Signal: NEUTRAL, Score: -0.15, Confidence: 1.00
+2025-06-28 13:59:49,529 - crypto_trading_system - INFO - Starting analysis for ETH-USD
+2025-06-28 13:59:49,693 - crypto_trading_system - WARNING - No candle data available for ETH-USD
+2025-06-28 13:59:49,887 - crypto_trading_system - INFO - Analysis completed for ETH-USD. Signal: NEUTRAL, Score: -0.25, Confidence: 1.00
+2025-06-28 13:59:49,888 - crypto_trading_system - INFO - Starting analysis for SOL-USD
+2025-06-28 13:59:49,936 - crypto_trading_system - WARNING - CoinGecko API rate limit reached. Retrying after delay.
+2025-06-28 13:59:50,048 - crypto_trading_system - WARNING - Retry 1/3 for _make_request after 4.00s: 429 Client Error: Too Many Requests for url: https://api.coingecko.com/api/v3/coins/bitcoin?localization=false&tickers=false&market_data=true&community_data=true&developer_data=true&sparkline=false
+2025-06-28 13:59:54,071 - crypto_trading_system - WARNING - CoinGecko API rate limit reached. Retrying after delay.
+2025-06-28 14:00:50,051 - crypto_trading_system - WARNING - No candle data available for SOL-USD
+2025-06-28 14:00:50,255 - crypto_trading_system - INFO - Analysis completed for SOL-USD. Signal: NEUTRAL, Score: -0.15, Confidence: 1.00
+2025-06-28 14:00:50,255 - crypto_trading_system - ERROR - Error saving to JSON file ui_test_data.json: [Errno 2] No such file or directory: ''
+2025-06-28 14:00:50,255 - e2e_test - ERROR - Failed to generate UI test data
+2025-06-28 14:00:50,255 - e2e_test - INFO - UI data integration test: FAILED
+2025-06-28 14:00:50,255 - e2e_test - INFO - End-to-end tests: FAILED
+2025-06-28 14:00:54,226 - crypto_trading_system - WARNING - No candle data available for BTC-USD
+2025-06-28 14:00:54,439 - crypto_trading_system - INFO - Analysis completed for BTC-USD. Signal: NEUTRAL, Score: -0.15, Confidence: 1.00
+2025-06-28 14:00:54,439 - e2e_test - INFO - Successfully analyzed BTC-USD: TradingSignal.NEUTRAL
+2025-06-28 14:00:54,439 - crypto_trading_system - INFO - Starting analysis for ETH-USD
+2025-06-28 14:00:54,604 - crypto_trading_system - WARNING - No candle data available for ETH-USD
+2025-06-28 14:00:54,690 - crypto_trading_system - WARNING - CoinGecko API rate limit reached. Retrying after delay.
+2025-06-28 14:01:54,834 - crypto_trading_system - INFO - Analysis completed for ETH-USD. Signal: NEUTRAL, Score: -0.25, Confidence: 1.00
+2025-06-28 14:01:54,834 - e2e_test - INFO - Successfully analyzed ETH-USD: TradingSignal.NEUTRAL
+2025-06-28 14:01:54,834 - crypto_trading_system - INFO - Starting analysis for SOL-USD
+2025-06-28 14:01:55,009 - crypto_trading_system - WARNING - No candle data available for SOL-USD
+2025-06-28 14:01:55,194 - crypto_trading_system - INFO - Analysis completed for SOL-USD. Signal: NEUTRAL, Score: -0.15, Confidence: 1.00
+2025-06-28 14:01:55,195 - e2e_test - INFO - Successfully analyzed SOL-USD: TradingSignal.NEUTRAL
+2025-06-28 14:01:55,195 - crypto_trading_system - INFO - Starting analysis for ADA-USD
+2025-06-28 14:01:55,342 - crypto_trading_system - WARNING - No candle data available for ADA-USD
+2025-06-28 14:01:55,528 - crypto_trading_system - INFO - Analysis completed for ADA-USD. Signal: NEUTRAL, Score: -0.50, Confidence: 1.00
+2025-06-28 14:01:55,528 - e2e_test - INFO - Successfully analyzed ADA-USD: TradingSignal.NEUTRAL
+2025-06-28 14:01:55,528 - crypto_trading_system - INFO - Starting analysis for XRP-USD
+2025-06-28 14:01:55,597 - crypto_trading_system - WARNING - CoinGecko API rate limit reached. Retrying after delay.
+2025-06-28 14:02:55,751 - crypto_trading_system - WARNING - No candle data available for XRP-USD
+2025-06-28 14:02:55,930 - crypto_trading_system - INFO - Analysis completed for XRP-USD. Signal: NEUTRAL, Score: -0.40, Confidence: 1.00
+2025-06-28 14:02:55,930 - e2e_test - INFO - Successfully analyzed XRP-USD: TradingSignal.NEUTRAL
+2025-06-28 14:02:55,930 - crypto_trading_system - ERROR - Error saving to JSON file e2e_test_results.json: [Errno 2] No such file or directory: ''
+2025-06-28 14:02:55,930 - e2e_test - INFO - Analysis pipeline test completed with 100% success rate
+2025-06-28 14:02:55,930 - e2e_test - INFO - Analysis pipeline test: PASSED
+2025-06-28 14:02:55,930 - e2e_test - INFO - Testing trading engine for 5 symbols with interval 1h
+2025-06-28 14:02:55,930 - crypto_trading_system - WARNING - Coinbase API credentials not provided. Some functionality will be limited.
+2025-06-28 14:02:55,931 - crypto_trading_system - WARNING - Coinbase API credentials not provided. Some functionality will be limited.
+2025-06-28 14:02:55,931 - crypto_trading_system - WARNING - Coinbase API credentials not provided. Some functionality will be limited.
+2025-06-28 14:02:55,931 - crypto_trading_system - INFO - Starting analysis for BTC-USD
+2025-06-28 14:02:56,119 - crypto_trading_system - WARNING - No candle data available for BTC-USD
+2025-06-28 14:02:56,327 - crypto_trading_system - INFO - Analysis completed for BTC-USD. Signal: NEUTRAL, Score: -0.15, Confidence: 1.00
+2025-06-28 14:02:56,327 - trading_engine - INFO - Executing trade strategy for BTC-USD with signal TradingSignal.NEUTRAL
+2025-06-28 14:02:56,327 - trading_engine - ERROR - Error executing trade strategy: 'CoinbaseClient' object has no attribute 'get_product'
+2025-06-28 14:02:56,327 - e2e_test - INFO - Successfully tested trading for BTC-USD: SIMULATED
+2025-06-28 14:02:56,327 - crypto_trading_system - INFO - Starting analysis for ETH-USD
+2025-06-28 14:02:56,567 - crypto_trading_system - WARNING - No candle data available for ETH-USD
+2025-06-28 14:02:56,635 - crypto_trading_system - WARNING - CoinGecko API rate limit reached. Retrying after delay.
+2025-06-28 14:03:56,774 - crypto_trading_system - INFO - Analysis completed for ETH-USD. Signal: NEUTRAL, Score: -0.25, Confidence: 1.00
+2025-06-28 14:03:56,774 - trading_engine - INFO - Executing trade strategy for ETH-USD with signal TradingSignal.NEUTRAL
+2025-06-28 14:03:56,774 - trading_engine - ERROR - Error executing trade strategy: 'CoinbaseClient' object has no attribute 'get_product'
+2025-06-28 14:03:56,774 - e2e_test - INFO - Successfully tested trading for ETH-USD: SIMULATED
+2025-06-28 14:03:56,774 - crypto_trading_system - INFO - Starting analysis for SOL-USD
+2025-06-28 14:03:56,946 - crypto_trading_system - WARNING - No candle data available for SOL-USD
+2025-06-28 14:03:57,121 - crypto_trading_system - INFO - Analysis completed for SOL-USD. Signal: NEUTRAL, Score: -0.15, Confidence: 1.00
+2025-06-28 14:03:57,121 - trading_engine - INFO - Executing trade strategy for SOL-USD with signal TradingSignal.NEUTRAL
+2025-06-28 14:03:57,121 - trading_engine - ERROR - Error executing trade strategy: 'CoinbaseClient' object has no attribute 'get_product'
+2025-06-28 14:03:57,121 - e2e_test - INFO - Successfully tested trading for SOL-USD: SIMULATED
+2025-06-28 14:03:57,121 - crypto_trading_system - INFO - Starting analysis for ADA-USD
+2025-06-28 14:03:57,294 - crypto_trading_system - WARNING - No candle data available for ADA-USD
+2025-06-28 14:03:57,488 - crypto_trading_system - INFO - Analysis completed for ADA-USD. Signal: NEUTRAL, Score: -0.50, Confidence: 1.00
+2025-06-28 14:03:57,489 - trading_engine - INFO - Executing trade strategy for ADA-USD with signal TradingSignal.NEUTRAL
+2025-06-28 14:03:57,489 - trading_engine - ERROR - Error executing trade strategy: 'CoinbaseClient' object has no attribute 'get_product'
+2025-06-28 14:03:57,489 - e2e_test - INFO - Successfully tested trading for ADA-USD: SIMULATED
+2025-06-28 14:03:57,489 - crypto_trading_system - INFO - Starting analysis for XRP-USD
+2025-06-28 14:03:57,555 - crypto_trading_system - WARNING - CoinGecko API rate limit reached. Retrying after delay.
+2025-06-28 14:04:57,734 - crypto_trading_system - WARNING - No candle data available for XRP-USD
+2025-06-28 14:04:57,913 - crypto_trading_system - INFO - Analysis completed for XRP-USD. Signal: NEUTRAL, Score: -0.40, Confidence: 1.00
+2025-06-28 14:04:57,913 - trading_engine - INFO - Executing trade strategy for XRP-USD with signal TradingSignal.NEUTRAL
+2025-06-28 14:04:57,913 - trading_engine - ERROR - Error executing trade strategy: 'CoinbaseClient' object has no attribute 'get_product'
+2025-06-28 14:04:57,914 - e2e_test - INFO - Successfully tested trading for XRP-USD: SIMULATED
+2025-06-28 14:04:57,914 - e2e_test - INFO - Trading engine test completed with 100% success rate
+2025-06-28 14:04:57,914 - e2e_test - INFO - Trading engine test: PASSED
+2025-06-28 14:04:57,914 - e2e_test - INFO - Testing UI data integration
+2025-06-28 14:04:57,914 - crypto_trading_system - WARNING - Coinbase API credentials not provided. Some functionality will be limited.
+2025-06-28 14:04:57,914 - crypto_trading_system - WARNING - Coinbase API credentials not provided. Some functionality will be limited.
+2025-06-28 14:04:57,914 - crypto_trading_system - INFO - Starting analysis for BTC-USD
+2025-06-28 14:04:58,042 - crypto_trading_system - WARNING - No candle data available for BTC-USD
+2025-06-28 14:04:58,239 - crypto_trading_system - INFO - Analysis completed for BTC-USD. Signal: NEUTRAL, Score: -0.15, Confidence: 1.00
+2025-06-28 14:04:58,239 - crypto_trading_system - INFO - Starting analysis for ETH-USD
+2025-06-28 14:04:58,465 - crypto_trading_system - WARNING - No candle data available for ETH-USD
+2025-06-28 14:04:58,537 - crypto_trading_system - WARNING - CoinGecko API rate limit reached. Retrying after delay.
+2025-06-28 14:05:58,700 - crypto_trading_system - INFO - Analysis completed for ETH-USD. Signal: NEUTRAL, Score: -0.25, Confidence: 1.00
+2025-06-28 14:05:58,701 - crypto_trading_system - INFO - Starting analysis for SOL-USD
+2025-06-28 14:05:58,862 - crypto_trading_system - WARNING - No candle data available for SOL-USD
+2025-06-28 14:05:59,045 - crypto_trading_system - INFO - Analysis completed for SOL-USD. Signal: NEUTRAL, Score: -0.15, Confidence: 1.00
+2025-06-28 14:05:59,045 - crypto_trading_system - ERROR - Error saving to JSON file ui_test_data.json: [Errno 2] No such file or directory: ''
+2025-06-28 14:05:59,045 - e2e_test - ERROR - Failed to generate UI test data
+2025-06-28 14:05:59,045 - e2e_test - INFO - UI data integration test: FAILED
+2025-06-28 14:05:59,045 - e2e_test - INFO - End-to-end tests: FAILED

@@ -1,0 +1,150 @@
+2025-06-28 14:32:49,595 - technical_analysis - INFO - Starting technical analysis for BTC-USD with interval 1h
+2025-06-28 14:32:49,595 - technical_analysis - INFO - Fetching historical data for BTC-USD with interval 1h
+2025-06-28 14:32:49,680 - technical_analysis - ERROR - Error fetching data for BTC-USD: 400 Client Error: Bad Request for url: https://api.exchange.coinbase.com/products/BTC-USD/candles?granularity=3600&start=2025-05-29T14%3A32%3A49&end=2025-06-28T14%3A32%3A49
+2025-06-28 14:32:49,682 - technical_analysis - ERROR - Failed to get historical data for BTC-USD
+2025-06-28 14:32:49,781 - technical_analysis - INFO - Starting technical analysis for ETH-USD with interval 1h
+2025-06-28 14:32:49,781 - technical_analysis - INFO - Fetching historical data for ETH-USD with interval 1h
+2025-06-28 14:32:49,831 - technical_analysis - ERROR - Error fetching data for ETH-USD: 400 Client Error: Bad Request for url: https://api.exchange.coinbase.com/products/ETH-USD/candles?granularity=3600&start=2025-05-29T14%3A32%3A49&end=2025-06-28T14%3A32%3A49
+2025-06-28 14:32:49,832 - technical_analysis - ERROR - Failed to get historical data for ETH-USD
+2025-06-28 14:32:49,928 - technical_analysis - INFO - Starting technical analysis for BTC-USD with interval 1h
+2025-06-28 14:32:49,928 - technical_analysis - INFO - Fetching historical data for BTC-USD with interval 1h
+2025-06-28 14:32:50,040 - technical_analysis - ERROR - Error fetching data for BTC-USD: 400 Client Error: Bad Request for url: https://api.exchange.coinbase.com/products/BTC-USD/candles?granularity=3600&start=2025-05-29T14%3A32%3A49&end=2025-06-28T14%3A32%3A49
+2025-06-28 14:32:50,041 - technical_analysis - ERROR - Failed to get historical data for BTC-USD
+2025-06-28 14:32:50,140 - technical_analysis - INFO - Starting technical analysis for ETH-USD with interval 1h
+2025-06-28 14:32:50,140 - technical_analysis - INFO - Fetching historical data for ETH-USD with interval 1h
+2025-06-28 14:32:50,248 - technical_analysis - ERROR - Error fetching data for ETH-USD: 400 Client Error: Bad Request for url: https://api.exchange.coinbase.com/products/ETH-USD/candles?granularity=3600&start=2025-05-29T14%3A32%3A50&end=2025-06-28T14%3A32%3A50
+2025-06-28 14:32:50,249 - technical_analysis - ERROR - Failed to get historical data for ETH-USD
+2025-06-28 14:32:50,343 - technical_analysis - INFO - Starting technical analysis for BTC-USD with interval 1h
+2025-06-28 14:32:50,343 - technical_analysis - INFO - Fetching historical data for BTC-USD with interval 1h
+2025-06-28 14:32:50,427 - technical_analysis - ERROR - Error fetching data for BTC-USD: 400 Client Error: Bad Request for url: https://api.exchange.coinbase.com/products/BTC-USD/candles?granularity=3600&start=2025-05-29T14%3A32%3A50&end=2025-06-28T14%3A32%3A50
+2025-06-28 14:32:50,428 - technical_analysis - ERROR - Failed to get historical data for BTC-USD
+2025-06-28 14:32:50,524 - technical_analysis - INFO - Starting technical analysis for ETH-USD with interval 1h
+2025-06-28 14:32:50,524 - technical_analysis - INFO - Fetching historical data for ETH-USD with interval 1h
+2025-06-28 14:32:50,623 - technical_analysis - ERROR - Error fetching data for ETH-USD: 400 Client Error: Bad Request for url: https://api.exchange.coinbase.com/products/ETH-USD/candles?granularity=3600&start=2025-05-29T14%3A32%3A50&end=2025-06-28T14%3A32%3A50
+2025-06-28 14:32:50,624 - technical_analysis - ERROR - Failed to get historical data for ETH-USD
+2025-06-28 14:32:50,718 - technical_analysis - INFO - Starting technical analysis for SOL-USD with interval 1h
+2025-06-28 14:32:50,718 - technical_analysis - INFO - Fetching historical data for SOL-USD with interval 1h
+2025-06-28 14:32:50,752 - technical_analysis - ERROR - Error fetching data for SOL-USD: 400 Client Error: Bad Request for url: https://api.exchange.coinbase.com/products/SOL-USD/candles?granularity=3600&start=2025-05-29T14%3A32%3A50&end=2025-06-28T14%3A32%3A50
+2025-06-28 14:32:50,753 - technical_analysis - ERROR - Failed to get historical data for SOL-USD
+2025-06-28 14:34:38,298 - technical_analysis - INFO - Starting technical analysis for BTC-USD with interval 1h
+2025-06-28 14:34:38,298 - technical_analysis - INFO - Fetching historical data for BTC-USD with interval 1h
+2025-06-28 14:34:38,397 - technical_analysis - ERROR - Error fetching data for BTC-USD: 400 Client Error: Bad Request for url: https://api.exchange.coinbase.com/products/BTC-USD/candles?granularity=3600&start=2025-05-29T14%3A34%3A38&end=2025-06-28T14%3A34%3A38
+2025-06-28 14:34:38,398 - technical_analysis - ERROR - Failed to get historical data for BTC-USD
+2025-06-28 14:34:38,642 - technical_analysis - INFO - Starting technical analysis for ETH-USD with interval 1h
+2025-06-28 14:34:38,642 - technical_analysis - INFO - Fetching historical data for ETH-USD with interval 1h
+2025-06-28 14:34:38,804 - technical_analysis - ERROR - Error fetching data for ETH-USD: 400 Client Error: Bad Request for url: https://api.exchange.coinbase.com/products/ETH-USD/candles?granularity=3600&start=2025-05-29T14%3A34%3A38&end=2025-06-28T14%3A34%3A38
+2025-06-28 14:34:38,805 - technical_analysis - ERROR - Failed to get historical data for ETH-USD
+2025-06-28 14:34:39,109 - technical_analysis - INFO - Starting technical analysis for BTC-USD with interval 1h
+2025-06-28 14:34:39,109 - technical_analysis - INFO - Fetching historical data for BTC-USD with interval 1h
+2025-06-28 14:34:39,144 - technical_analysis - ERROR - Error fetching data for BTC-USD: 400 Client Error: Bad Request for url: https://api.exchange.coinbase.com/products/BTC-USD/candles?granularity=3600&start=2025-05-29T14%3A34%3A39&end=2025-06-28T14%3A34%3A39
+2025-06-28 14:34:39,145 - technical_analysis - ERROR - Failed to get historical data for BTC-USD
+2025-06-28 14:34:39,307 - technical_analysis - INFO - Starting technical analysis for ETH-USD with interval 1h
+2025-06-28 14:34:39,307 - technical_analysis - INFO - Fetching historical data for ETH-USD with interval 1h
+2025-06-28 14:34:39,570 - technical_analysis - ERROR - Error fetching data for ETH-USD: 400 Client Error: Bad Request for url: https://api.exchange.coinbase.com/products/ETH-USD/candles?granularity=3600&start=2025-05-29T14%3A34%3A39&end=2025-06-28T14%3A34%3A39
+2025-06-28 14:34:39,571 - technical_analysis - ERROR - Failed to get historical data for ETH-USD
+2025-06-28 14:34:39,735 - technical_analysis - INFO - Starting technical analysis for BTC-USD with interval 1h
+2025-06-28 14:34:39,735 - technical_analysis - INFO - Fetching historical data for BTC-USD with interval 1h
+2025-06-28 14:34:39,765 - technical_analysis - ERROR - Error fetching data for BTC-USD: 400 Client Error: Bad Request for url: https://api.exchange.coinbase.com/products/BTC-USD/candles?granularity=3600&start=2025-05-29T14%3A34%3A39&end=2025-06-28T14%3A34%3A39
+2025-06-28 14:34:39,765 - technical_analysis - ERROR - Failed to get historical data for BTC-USD
+2025-06-28 14:34:39,910 - technical_analysis - INFO - Starting technical analysis for ETH-USD with interval 1h
+2025-06-28 14:34:39,910 - technical_analysis - INFO - Fetching historical data for ETH-USD with interval 1h
+2025-06-28 14:34:40,007 - technical_analysis - ERROR - Error fetching data for ETH-USD: 400 Client Error: Bad Request for url: https://api.exchange.coinbase.com/products/ETH-USD/candles?granularity=3600&start=2025-05-29T14%3A34%3A39&end=2025-06-28T14%3A34%3A39
+2025-06-28 14:34:40,008 - technical_analysis - ERROR - Failed to get historical data for ETH-USD
+2025-06-28 14:34:40,152 - technical_analysis - INFO - Starting technical analysis for SOL-USD with interval 1h
+2025-06-28 14:34:40,152 - technical_analysis - INFO - Fetching historical data for SOL-USD with interval 1h
+2025-06-28 14:34:40,205 - technical_analysis - ERROR - Error fetching data for SOL-USD: 400 Client Error: Bad Request for url: https://api.exchange.coinbase.com/products/SOL-USD/candles?granularity=3600&start=2025-05-29T14%3A34%3A40&end=2025-06-28T14%3A34%3A40
+2025-06-28 14:34:40,205 - technical_analysis - ERROR - Failed to get historical data for SOL-USD
+2025-06-28 14:35:15,271 - technical_analysis - INFO - Starting technical analysis for BTC-USD with interval 1h
+2025-06-28 14:35:15,271 - technical_analysis - INFO - Fetching historical data for BTC-USD with interval 1h
+2025-06-28 14:35:15,312 - technical_analysis - ERROR - Error fetching data for BTC-USD: 400 Client Error: Bad Request for url: https://api.exchange.coinbase.com/products/BTC-USD/candles?granularity=3600&start=2025-05-29T14%3A35%3A15&end=2025-06-28T14%3A35%3A15
+2025-06-28 14:35:15,313 - technical_analysis - ERROR - Failed to get historical data for BTC-USD
+2025-06-28 14:35:15,464 - technical_analysis - INFO - Starting technical analysis for ETH-USD with interval 1h
+2025-06-28 14:35:15,464 - technical_analysis - INFO - Fetching historical data for ETH-USD with interval 1h
+2025-06-28 14:35:15,507 - technical_analysis - ERROR - Error fetching data for ETH-USD: 400 Client Error: Bad Request for url: https://api.exchange.coinbase.com/products/ETH-USD/candles?granularity=3600&start=2025-05-29T14%3A35%3A15&end=2025-06-28T14%3A35%3A15
+2025-06-28 14:35:15,508 - technical_analysis - ERROR - Failed to get historical data for ETH-USD
+2025-06-28 14:35:15,657 - technical_analysis - INFO - Starting technical analysis for BTC-USD with interval 1h
+2025-06-28 14:35:15,657 - technical_analysis - INFO - Fetching historical data for BTC-USD with interval 1h
+2025-06-28 14:35:15,687 - technical_analysis - ERROR - Error fetching data for BTC-USD: 400 Client Error: Bad Request for url: https://api.exchange.coinbase.com/products/BTC-USD/candles?granularity=3600&start=2025-05-29T14%3A35%3A15&end=2025-06-28T14%3A35%3A15
+2025-06-28 14:35:15,687 - technical_analysis - ERROR - Failed to get historical data for BTC-USD
+2025-06-28 14:35:15,825 - technical_analysis - INFO - Starting technical analysis for ETH-USD with interval 1h
+2025-06-28 14:35:15,825 - technical_analysis - INFO - Fetching historical data for ETH-USD with interval 1h
+2025-06-28 14:35:15,869 - technical_analysis - ERROR - Error fetching data for ETH-USD: 400 Client Error: Bad Request for url: https://api.exchange.coinbase.com/products/ETH-USD/candles?granularity=3600&start=2025-05-29T14%3A35%3A15&end=2025-06-28T14%3A35%3A15
+2025-06-28 14:35:15,870 - technical_analysis - ERROR - Failed to get historical data for ETH-USD
+2025-06-28 14:35:16,001 - technical_analysis - INFO - Starting technical analysis for BTC-USD with interval 1h
+2025-06-28 14:35:16,001 - technical_analysis - INFO - Fetching historical data for BTC-USD with interval 1h
+2025-06-28 14:35:16,044 - technical_analysis - ERROR - Error fetching data for BTC-USD: 400 Client Error: Bad Request for url: https://api.exchange.coinbase.com/products/BTC-USD/candles?granularity=3600&start=2025-05-29T14%3A35%3A16&end=2025-06-28T14%3A35%3A16
+2025-06-28 14:35:16,045 - technical_analysis - ERROR - Failed to get historical data for BTC-USD
+2025-06-28 14:35:16,191 - technical_analysis - INFO - Starting technical analysis for ETH-USD with interval 1h
+2025-06-28 14:35:16,191 - technical_analysis - INFO - Fetching historical data for ETH-USD with interval 1h
+2025-06-28 14:35:16,283 - technical_analysis - ERROR - Error fetching data for ETH-USD: 400 Client Error: Bad Request for url: https://api.exchange.coinbase.com/products/ETH-USD/candles?granularity=3600&start=2025-05-29T14%3A35%3A16&end=2025-06-28T14%3A35%3A16
+2025-06-28 14:35:16,284 - technical_analysis - ERROR - Failed to get historical data for ETH-USD
+2025-06-28 14:35:16,430 - technical_analysis - INFO - Starting technical analysis for SOL-USD with interval 1h
+2025-06-28 14:35:16,430 - technical_analysis - INFO - Fetching historical data for SOL-USD with interval 1h
+2025-06-28 14:35:16,478 - technical_analysis - ERROR - Error fetching data for SOL-USD: 400 Client Error: Bad Request for url: https://api.exchange.coinbase.com/products/SOL-USD/candles?granularity=3600&start=2025-05-29T14%3A35%3A16&end=2025-06-28T14%3A35%3A16
+2025-06-28 14:35:16,479 - technical_analysis - ERROR - Failed to get historical data for SOL-USD
+2025-06-28 14:35:39,582 - technical_analysis - INFO - Starting technical analysis for BTC-USD with interval 1h
+2025-06-28 14:35:39,582 - technical_analysis - INFO - Fetching historical data for BTC-USD with interval 1h
+2025-06-28 14:35:39,667 - technical_analysis - ERROR - Error fetching data for BTC-USD: 400 Client Error: Bad Request for url: https://api.exchange.coinbase.com/products/BTC-USD/candles?granularity=3600&start=2025-05-29T14%3A35%3A39&end=2025-06-28T14%3A35%3A39
+2025-06-28 14:35:39,668 - technical_analysis - ERROR - Failed to get historical data for BTC-USD
+2025-06-28 14:35:39,923 - technical_analysis - INFO - Starting technical analysis for BTC-USD with interval 1h
+2025-06-28 14:35:39,923 - technical_analysis - INFO - Fetching historical data for BTC-USD with interval 1h
+2025-06-28 14:35:40,008 - technical_analysis - ERROR - Error fetching data for BTC-USD: 400 Client Error: Bad Request for url: https://api.exchange.coinbase.com/products/BTC-USD/candles?granularity=3600&start=2025-05-29T14%3A35%3A39&end=2025-06-28T14%3A35%3A39
+2025-06-28 14:35:40,009 - technical_analysis - ERROR - Failed to get historical data for BTC-USD
+2025-06-28 14:35:40,168 - technical_analysis - INFO - Starting technical analysis for BTC-USD with interval 1h
+2025-06-28 14:35:40,168 - technical_analysis - INFO - Fetching historical data for BTC-USD with interval 1h
+2025-06-28 14:35:40,250 - technical_analysis - ERROR - Error fetching data for BTC-USD: 400 Client Error: Bad Request for url: https://api.exchange.coinbase.com/products/BTC-USD/candles?granularity=3600&start=2025-05-29T14%3A35%3A40&end=2025-06-28T14%3A35%3A40
+2025-06-28 14:35:40,251 - technical_analysis - ERROR - Failed to get historical data for BTC-USD
+2025-06-28 14:35:40,397 - technical_analysis - INFO - Starting technical analysis for ETH-USD with interval 1h
+2025-06-28 14:35:40,397 - technical_analysis - INFO - Fetching historical data for ETH-USD with interval 1h
+2025-06-28 14:35:40,427 - technical_analysis - ERROR - Error fetching data for ETH-USD: 400 Client Error: Bad Request for url: https://api.exchange.coinbase.com/products/ETH-USD/candles?granularity=3600&start=2025-05-29T14%3A35%3A40&end=2025-06-28T14%3A35%3A40
+2025-06-28 14:35:40,428 - technical_analysis - ERROR - Failed to get historical data for ETH-USD
+2025-06-28 14:35:40,575 - technical_analysis - INFO - Starting technical analysis for SOL-USD with interval 1h
+2025-06-28 14:35:40,575 - technical_analysis - INFO - Fetching historical data for SOL-USD with interval 1h
+2025-06-28 14:35:40,683 - technical_analysis - ERROR - Error fetching data for SOL-USD: 400 Client Error: Bad Request for url: https://api.exchange.coinbase.com/products/SOL-USD/candles?granularity=3600&start=2025-05-29T14%3A35%3A40&end=2025-06-28T14%3A35%3A40
+2025-06-28 14:35:40,684 - technical_analysis - ERROR - Failed to get historical data for SOL-USD
+2025-06-28 15:18:46,011 - technical_analysis - INFO - Starting technical analysis for BTC-USD with interval 1h
+2025-06-28 15:18:46,011 - technical_analysis - INFO - Fetching historical data for BTC-USD with interval 1h
+2025-06-28 15:18:46,058 - technical_analysis - ERROR - Error fetching data for BTC-USD: 400 Client Error: Bad Request for url: https://api.exchange.coinbase.com/products/BTC-USD/candles?granularity=3600&start=2025-05-29T15%3A18%3A46&end=2025-06-28T15%3A18%3A46
+2025-06-28 15:18:46,060 - technical_analysis - ERROR - Failed to get historical data for BTC-USD
+2025-06-28 15:18:46,361 - technical_analysis - INFO - Starting technical analysis for BTC-USD with interval 1h
+2025-06-28 15:18:46,361 - technical_analysis - INFO - Starting technical analysis for ETH-USD with interval 1h
+2025-06-28 15:18:46,361 - technical_analysis - INFO - Fetching historical data for BTC-USD with interval 1h
+2025-06-28 15:18:46,362 - technical_analysis - INFO - Starting technical analysis for SOL-USD with interval 1h
+2025-06-28 15:18:46,362 - technical_analysis - INFO - Fetching historical data for ETH-USD with interval 1h
+2025-06-28 15:18:46,363 - technical_analysis - INFO - Fetching historical data for SOL-USD with interval 1h
+2025-06-28 15:18:46,391 - technical_analysis - ERROR - Error fetching data for BTC-USD: 400 Client Error: Bad Request for url: https://api.exchange.coinbase.com/products/BTC-USD/candles?granularity=3600&start=2025-05-29T15%3A18%3A46&end=2025-06-28T15%3A18%3A46
+2025-06-28 15:18:46,392 - technical_analysis - ERROR - Failed to get historical data for BTC-USD
+2025-06-28 15:18:46,395 - technical_analysis - ERROR - Error fetching data for SOL-USD: 400 Client Error: Bad Request for url: https://api.exchange.coinbase.com/products/SOL-USD/candles?granularity=3600&start=2025-05-29T15%3A18%3A46&end=2025-06-28T15%3A18%3A46
+2025-06-28 15:18:46,396 - technical_analysis - ERROR - Failed to get historical data for SOL-USD
+2025-06-28 15:18:46,472 - technical_analysis - ERROR - Error fetching data for ETH-USD: 400 Client Error: Bad Request for url: https://api.exchange.coinbase.com/products/ETH-USD/candles?granularity=3600&start=2025-05-29T15%3A18%3A46&end=2025-06-28T15%3A18%3A46
+2025-06-28 15:18:46,472 - technical_analysis - ERROR - Failed to get historical data for ETH-USD
+2025-06-28 15:18:46,620 - technical_analysis - INFO - Starting technical analysis for BTC-USD with interval 1d
+2025-06-28 15:18:46,620 - technical_analysis - INFO - Fetching historical data for BTC-USD with interval 1d
+2025-06-28 15:18:46,621 - technical_analysis - INFO - Starting technical analysis for ETH-USD with interval 1d
+2025-06-28 15:18:46,621 - technical_analysis - INFO - Fetching historical data for ETH-USD with interval 1d
+2025-06-28 15:18:46,622 - technical_analysis - INFO - Starting technical analysis for SOL-USD with interval 1d
+2025-06-28 15:18:46,623 - technical_analysis - INFO - Fetching historical data for SOL-USD with interval 1d
+2025-06-28 15:18:46,678 - technical_analysis - INFO - Successfully fetched 30 data points for BTC-USD
+2025-06-28 15:18:46,759 - technical_analysis - INFO - Successfully fetched 30 data points for SOL-USD
+2025-06-28 15:18:46,848 - technical_analysis - INFO - Successfully fetched 30 data points for ETH-USD
+2025-06-28 15:18:46,860 - technical_analysis - INFO - Successfully calculated technical indicators
+2025-06-28 15:18:46,876 - technical_analysis - INFO - Technical analysis scores: {'trend': 0.2, 'momentum': 0.4, 'volatility': 0, 'volume': -0.3, 'rapid_trading': 0, 'overall': 0.115}
+2025-06-28 15:18:46,882 - technical_analysis - INFO - Completed technical analysis for SOL-USD
+2025-06-28 15:18:46,881 - technical_analysis - INFO - Successfully calculated technical indicators
+2025-06-28 15:18:46,886 - technical_analysis - INFO - Technical analysis scores: {'trend': 0.4, 'momentum': 0.10000000000000003, 'volatility': 0, 'volume': 0.3, 'rapid_trading': 0, 'overall': 0.19}
+2025-06-28 15:18:46,894 - technical_analysis - INFO - Completed technical analysis for BTC-USD
+2025-06-28 15:18:46,915 - technical_analysis - INFO - Successfully calculated technical indicators
+2025-06-28 15:18:46,919 - technical_analysis - INFO - Technical analysis scores: {'trend': 0, 'momentum': 0.4, 'volatility': 0, 'volume': -0.3, 'rapid_trading': 0, 'overall': 0.05500000000000001}
+2025-06-28 15:18:46,920 - technical_analysis - INFO - Completed technical analysis for ETH-USD
+2025-06-28 15:18:47,152 - technical_analysis - INFO - Starting technical analysis for BTC-USD with interval 7d
+2025-06-28 15:18:47,153 - technical_analysis - INFO - Fetching historical data for BTC-USD with interval 7d
+2025-06-28 15:18:47,155 - technical_analysis - INFO - Starting technical analysis for ETH-USD with interval 7d
+2025-06-28 15:18:47,155 - technical_analysis - INFO - Fetching historical data for ETH-USD with interval 7d
+2025-06-28 15:18:47,160 - technical_analysis - INFO - Starting technical analysis for SOL-USD with interval 7d
+2025-06-28 15:18:47,160 - technical_analysis - INFO - Fetching historical data for SOL-USD with interval 7d
+2025-06-28 15:18:47,188 - technical_analysis - ERROR - Error fetching data for BTC-USD: 400 Client Error: Bad Request for url: https://api.exchange.coinbase.com/products/BTC-USD/candles?granularity=604800&start=2025-05-29T15%3A18%3A47&end=2025-06-28T15%3A18%3A47
+2025-06-28 15:18:47,189 - technical_analysis - ERROR - Failed to get historical data for BTC-USD
+2025-06-28 15:18:47,241 - technical_analysis - ERROR - Error fetching data for SOL-USD: 400 Client Error: Bad Request for url: https://api.exchange.coinbase.com/products/SOL-USD/candles?granularity=604800&start=2025-05-29T15%3A18%3A47&end=2025-06-28T15%3A18%3A47
+2025-06-28 15:18:47,242 - technical_analysis - ERROR - Failed to get historical data for SOL-USD
+2025-06-28 15:18:47,322 - technical_analysis - ERROR - Error fetching data for ETH-USD: 400 Client Error: Bad Request for url: https://api.exchange.coinbase.com/products/ETH-USD/candles?granularity=604800&start=2025-05-29T15%3A18%3A47&end=2025-06-28T15%3A18%3A47
+2025-06-28 15:18:47,323 - technical_analysis - ERROR - Failed to get historical data for ETH-USD

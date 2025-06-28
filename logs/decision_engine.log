@@ -1,0 +1,19 @@
+2025-06-28 15:18:46,357 - decision_engine - INFO - Portfolio manager initialized: max_position=10.0%, max_invested=80.0%, min_trade=$10.0
+2025-06-28 15:18:46,357 - decision_engine - INFO - Decision engine initialized with min_confidence=0.75
+2025-06-28 15:18:46,358 - decision_engine - INFO - Making trading decisions for 2 opportunities
+2025-06-28 15:18:46,358 - decision_engine - INFO - Portfolio value: $48250.27
+2025-06-28 15:18:46,358 - decision_engine - INFO - Generated 0 trading decisions
+2025-06-28 15:18:46,359 - decision_engine - INFO - Portfolio manager initialized: max_position=10.0%, max_invested=80.0%, min_trade=$10.0
+2025-06-28 15:18:46,359 - decision_engine - INFO - Decision engine initialized with min_confidence=0.75
+2025-06-28 15:19:31,362 - decision_engine - INFO - Portfolio manager initialized: max_position=10.0%, max_invested=80.0%, min_trade=$10.0
+2025-06-28 15:19:31,362 - decision_engine - INFO - Decision engine initialized with min_confidence=0.75
+2025-06-28 15:19:31,363 - decision_engine - INFO - Making trading decisions for 0 opportunities
+2025-06-28 15:19:31,363 - decision_engine - INFO - Portfolio value: $51393.89
+2025-06-28 15:19:31,363 - decision_engine - INFO - Generated 0 trading decisions
+2025-06-28 15:19:54,573 - decision_engine - INFO - Portfolio manager initialized: max_position=10.0%, max_invested=80.0%, min_trade=$10.0
+2025-06-28 15:19:54,573 - decision_engine - INFO - Decision engine initialized with min_confidence=0.75
+2025-06-28 15:19:54,573 - decision_engine - INFO - Portfolio manager initialized: max_position=10.0%, max_invested=80.0%, min_trade=$10.0
+2025-06-28 15:19:54,573 - decision_engine - INFO - Decision engine initialized with min_confidence=0.75
+2025-06-28 15:19:54,573 - decision_engine - INFO - Making trading decisions for 1 opportunities
+2025-06-28 15:19:54,573 - decision_engine - INFO - Portfolio value: $51607.22
+2025-06-28 15:19:54,574 - decision_engine - INFO - Generated 0 trading decisions

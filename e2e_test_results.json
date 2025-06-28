@@ -1,0 +1,35 @@
+{
+  "BTC-USD": {
+    "symbol": "BTC-USD",
+    "timestamp": "2025-06-28T14:35:39.582492",
+    "interval": "1h",
+    "days_analyzed": 30,
+    "scores": {
+      "sentiment": {
+        "fear_greed": 0.3,
+        "social": 0.3600000000000001,
+        "news": 0.36,
+        "overall": 0.336
+      },
+      "market": {
+        "market_cap_score": 1.0,
+        "volume_score": -1.0,
+        "price_change_score": 0.0,
+        "overall_market_score": -0.10000000000000003
+      },
+      "project": {
+        "developer_score": 2.0,
+        "community_score": -1.0,
+        "overall_project_score": 0.7999999999999999
+      }
+    },
+    "recommendation": {
+      "action": "HOLD",
+      "confidence": 0.0,
+      "reasoning": [
+        "Insufficient data for recommendation"
+      ],
+      "risk_level": "MEDIUM"
+    }
+  }
+}

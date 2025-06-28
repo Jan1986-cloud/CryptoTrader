@@ -1,0 +1,15 @@
+pandas
+numpy
+requests
+matplotlib
+plotly
+dash
+dash-bootstrap-components
+ta
+python-dotenv
+pytest
+pytest-cov
+black
+isort
+flake8
+

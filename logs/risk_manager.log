@@ -1,0 +1,13 @@
+2025-06-28 15:18:46,359 - risk_manager - INFO - Stop-loss manager initialized: 10.0% default stop
+2025-06-28 15:18:46,359 - risk_manager - INFO - Portfolio optimizer initialized with 5.0% rebalance threshold
+2025-06-28 15:18:46,359 - risk_manager - INFO - Risk manager initialized: max portfolio risk 2.0%
+2025-06-28 15:18:46,359 - risk_manager - INFO - Stop-loss set for BTC-USD: 10.0% at $45000.00
+2025-06-28 15:18:46,359 - risk_manager - INFO - Stop-loss manager initialized: 10.0% default stop
+2025-06-28 15:18:46,359 - risk_manager - INFO - Portfolio optimizer initialized with 5.0% rebalance threshold
+2025-06-28 15:18:46,359 - risk_manager - INFO - Risk manager initialized: max portfolio risk 2.0%
+2025-06-28 15:19:31,362 - risk_manager - INFO - Stop-loss manager initialized: 10.0% default stop
+2025-06-28 15:19:31,362 - risk_manager - INFO - Portfolio optimizer initialized with 5.0% rebalance threshold
+2025-06-28 15:19:31,362 - risk_manager - INFO - Risk manager initialized: max portfolio risk 2.0%
+2025-06-28 15:19:54,573 - risk_manager - INFO - Stop-loss manager initialized: 10.0% default stop
+2025-06-28 15:19:54,573 - risk_manager - INFO - Portfolio optimizer initialized with 5.0% rebalance threshold
+2025-06-28 15:19:54,573 - risk_manager - INFO - Risk manager initialized: max portfolio risk 2.0%

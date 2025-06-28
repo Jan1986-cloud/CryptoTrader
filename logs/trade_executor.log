@@ -1,0 +1,15 @@
+2025-06-28 15:18:46,358 - trade_executor - INFO - Order manager initialized
+2025-06-28 15:18:46,358 - trade_executor - INFO - Trade executor initialized with 2.0% max slippage
+2025-06-28 15:18:46,358 - trade_executor - INFO - Executing 1 trading decisions
+2025-06-28 15:18:46,358 - trade_executor - INFO - Executing decision 1/1: BUY BTC-USD
+2025-06-28 15:18:46,358 - trade_executor - INFO - Executing BUY decision: BTC-USD for $100.00 (confidence: 0.85)
+2025-06-28 15:18:46,358 - trade_executor - INFO - Creating market buy order: BTC-USD for $100.00
+2025-06-28 15:18:46,358 - trade_executor - INFO - Market buy order created: demo-order-20250628151846
+2025-06-28 15:18:46,358 - trade_executor - INFO - Buy order executed successfully: demo-order-20250628151846
+2025-06-28 15:18:46,358 - trade_executor - INFO - Execution completed: 1/1 successful
+2025-06-28 15:18:46,359 - trade_executor - INFO - Order manager initialized
+2025-06-28 15:18:46,359 - trade_executor - INFO - Trade executor initialized with 2.0% max slippage
+2025-06-28 15:19:31,362 - trade_executor - INFO - Order manager initialized
+2025-06-28 15:19:31,362 - trade_executor - INFO - Trade executor initialized with 2.0% max slippage
+2025-06-28 15:19:54,573 - trade_executor - INFO - Order manager initialized
+2025-06-28 15:19:54,573 - trade_executor - INFO - Trade executor initialized with 2.0% max slippage

@@ -1,0 +1,33 @@
+2025-06-28 13:14:46,431 - integration_test - INFO - Starting integration test...
+2025-06-28 13:14:46,431 - integration_test - INFO - Testing API connections...
+2025-06-28 13:14:46,431 - crypto_trading_system - WARNING - Coinbase API credentials not provided. Some functionality will be limited.
+2025-06-28 13:14:46,472 - crypto_trading_system - ERROR - Error fetching products: 'list' object has no attribute 'get'
+2025-06-28 13:14:46,473 - integration_test - INFO - Coinbase API connection: Failed
+2025-06-28 13:14:46,546 - integration_test - INFO - CoinGecko API connection: Success
+2025-06-28 13:14:46,546 - integration_test - INFO - Found 17568 coins on CoinGecko
+2025-06-28 13:14:46,547 - integration_test - WARNING - API connection test had issues. Continuing with limited functionality.
+2025-06-28 13:14:46,547 - integration_test - INFO - Testing individual analyzers...
+2025-06-28 13:14:46,548 - integration_test - INFO - Technical Analyzer initialized successfully
+2025-06-28 13:14:46,603 - integration_test - INFO - Sentiment Analyzer test: Success
+2025-06-28 13:14:46,603 - integration_test - INFO - Current Fear & Greed Index: 65 (Greed)
+2025-06-28 13:14:46,603 - crypto_trading_system - WARNING - Coinbase API credentials not provided. Some functionality will be limited.
+2025-06-28 13:14:46,808 - integration_test - INFO - Market Analyzer test: Success
+2025-06-28 13:14:46,808 - integration_test - INFO - Current BTC price: 107414.83
+2025-06-28 13:14:46,973 - integration_test - INFO - Project Analyzer test: Success
+2025-06-28 13:14:46,973 - integration_test - INFO - Testing analysis pipeline with symbols: ['BTC-USD']
+2025-06-28 13:14:46,973 - crypto_trading_system - WARNING - Coinbase API credentials not provided. Some functionality will be limited.
+2025-06-28 13:14:46,973 - crypto_trading_system - WARNING - Coinbase API credentials not provided. Some functionality will be limited.
+2025-06-28 13:14:46,973 - crypto_trading_system - INFO - Starting analysis for BTC-USD
+2025-06-28 13:14:47,059 - crypto_trading_system - WARNING - No candle data available for BTC-USD
+2025-06-28 13:14:47,154 - crypto_trading_system - INFO - Analysis completed for BTC-USD. Signal: NEUTRAL, Score: -0.15, Confidence: 1.00
+2025-06-28 13:14:47,154 - integration_test - INFO - Analysis pipeline test: Success
+2025-06-28 13:14:47,154 - integration_test - INFO - Analysis result for BTC-USD: Signal=NEUTRAL, Score=-0.15
+2025-06-28 13:14:47,154 - integration_test - INFO - Test analysis results saved to /home/ubuntu/crypto_trading_system/crypto_trading_system/data/test_analysis_results_20250628_131447.json
+2025-06-28 13:14:47,154 - integration_test - INFO - Testing trading engine...
+2025-06-28 13:14:47,154 - crypto_trading_system - WARNING - Coinbase API credentials not provided. Some functionality will be limited.
+2025-06-28 13:14:47,154 - integration_test - INFO - Initial portfolio: 10000 10000
+2025-06-28 13:14:47,155 - crypto_trading_system - INFO - Neutral signal for BTC-USD. No action taken.
+2025-06-28 13:14:47,155 - crypto_trading_system - INFO - Portfolio updated. Total value: 10000.00 USD
+2025-06-28 13:14:47,155 - integration_test - INFO - Updated portfolio: 10000 10000
+2025-06-28 13:14:47,155 - integration_test - INFO - Test portfolio summary saved to /home/ubuntu/crypto_trading_system/crypto_trading_system/data/test_portfolio_20250628_131447.json
+2025-06-28 13:14:47,155 - integration_test - INFO - Integration test completed successfully!
