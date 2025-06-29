@@ -1,1 +1,3 @@
-web: gunicorn crypto_trading_system.src.ui.dashboard:server
+# Railway deployment configuration
+web: gunicorn --bind 0.0.0.0:$PORT wsgi:app
+

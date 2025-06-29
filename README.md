@@ -1,260 +1,332 @@
-# Cryptocurrency Trading System
+# Crypto Trading SaaS - AI-Powered Cryptocurrency Analysis Platform
 
-Een volledig geautomatiseerd cryptocurrency handelssysteem met real-time monitoring, geautomatiseerde besluitvorming en live handelsuitvoering.
+A professional-grade SaaS application for cryptocurrency trading and analysis, powered by advanced AI and designed for multi-user deployment on Railway.
 
-## Overzicht
+## 🚀 Features
 
-Dit systeem monitort continu alle verhandelbare cryptocurrencies, analyseert marktgegevens, neemt automatisch handelsbeslissingen en voert trades uit voor maximaal rendement. Het combineert technische analyse, sentiment analyse, marktgegevens en risicobeheer in één geïntegreerd systeem.
+### Core Functionality
+- **AI-Powered Analysis**: Advanced market analysis using Google Gemini AI
+- **Real-time Data**: Live cryptocurrency market data and technical indicators
+- **Secure API Vault**: Bank-grade encryption for user API keys
+- **Portfolio Management**: Automated portfolio optimization and risk management
+- **Multi-user Support**: Complete SaaS architecture with user authentication
+- **Subscription Management**: Integrated Stripe payment processing
 
-## 🚀 Nieuwe Automatiseringsfuncties
+### Technical Features
+- **Modern Architecture**: Flask backend with responsive HTML/CSS/JS frontend
+- **Database**: PostgreSQL with SQLAlchemy ORM
+- **Authentication**: Secure user registration, login, and session management
+- **Encryption**: AES-256 encryption for sensitive data
+- **Caching**: Intelligent analysis caching to optimize performance
+- **Mobile Ready**: Responsive design optimized for all devices
 
-### Volledig Geautomatiseerd Handelen
-- **Real-time Monitoring**: Monitort alle verhandelbare coins elk uur/dag/week
-- **Automatische Besluitvorming**: Kiest automatisch de beste handelsmogelijkheden
-- **Live Handelsuitvoering**: Voert trades automatisch uit via Coinbase API
-- **Portfolio Management**: Beheert posities op basis van percentages van portfolio waarde
-- **Risicobeheer**: Automatische stop-losses en portfolio optimalisatie
+## 🏗️ Architecture
 
-### Kernfunctionaliteiten
-- **Geautomatiseerde Analyse**: Analyseert alle factoren die cryptoprijzen beïnvloeden
-- **Handelssignalen**: Genereert en voert automatisch BUY/SELL signalen uit
-- **Futuristisch Dashboard**: 3D visualisaties met neon kleuren
-- **1-uurs Tijdsframe**: Snelle analyse voor altcoin trading
-- **Portfolio Percentage Management**: Maximale inzet per positie configureerbaar
-- **Risk Management**: Stop-losses, position sizing, en dagelijkse verlieslimieten
-- **Coinbase Integratie**: Volledige API integratie voor live trading
+```
+crypto_saas/
+├── src/
+│   ├── main.py                 # Flask application factory
+│   ├── config.py              # Configuration management
+│   ├── models/
+│   │   └── user.py            # Database models
+│   ├── routes/
+│   │   ├── auth.py            # Authentication endpoints
+│   │   ├── api_keys.py        # API key management
+│   │   ├── analysis.py        # AI analysis endpoints
+│   │   └── payments.py        # Stripe payment processing
+│   ├── services/
+│   │   └── ai_analysis.py     # Google Gemini AI integration
+│   ├── utils/
+│   │   └── encryption.py      # Encryption utilities
+│   └── static/
+│       ├── index.html         # Main frontend
+│       ├── css/               # Stylesheets
+│       └── js/                # JavaScript files
+├── wsgi.py                    # WSGI entry point
+├── requirements.txt           # Python dependencies
+├── Procfile                   # Railway deployment config
+├── railway.json              # Railway configuration
+└── .env.template             # Environment variables template
+```
 
-## Automatisch Handelen Starten
+## 🚀 Quick Start
 
-### Snelle Start
+### Prerequisites
+- Python 3.9+
+- PostgreSQL database
+- Stripe account (for payments)
+- Google Gemini API key (for AI analysis)
+
+### Local Development
+
+1. **Clone and Setup**
+   ```bash
+   git clone <repository-url>
+   cd crypto_saas
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   pip install -r requirements.txt
+   ```
+
+2. **Environment Configuration**
+   ```bash
+   cp .env.template .env
+   # Edit .env with your actual configuration values
+   ```
+
+3. **Database Setup**
+   ```bash
+   # Create PostgreSQL database
+   createdb crypto_saas_db
+   
+   # Initialize database tables
+   python -c "from src.main import create_app; app = create_app(); app.app_context().push(); from src.models.user import db; db.create_all()"
+   ```
+
+4. **Run Development Server**
+   ```bash
+   python wsgi.py
+   ```
+
+   Visit `http://localhost:5000` to access the application.
+
+## 🚂 Railway Deployment
+
+### Automatic Deployment
+
+1. **Connect Repository**
+   - Connect your GitHub repository to Railway
+   - Railway will automatically detect the Python project
+
+2. **Environment Variables**
+   Set the following environment variables in Railway:
+   
+   ```
+   SECRET_KEY=your-secret-key-here
+   DATABASE_URL=postgresql://... (provided by Railway)
+   STRIPE_PUBLISHABLE_KEY=pk_live_...
+   STRIPE_SECRET_KEY=sk_live_...
+   STRIPE_WEBHOOK_SECRET=whsec_...
+   GEMINI_API_KEY=your_gemini_api_key
+   MAIL_SERVER=smtp.gmail.com
+   MAIL_PORT=587
+   MAIL_USE_TLS=True
+   MAIL_USERNAME=your_email@gmail.com
+   MAIL_PASSWORD=your_app_password
+   ENCRYPTION_KEY=your-32-byte-base64-key
+   SUBSCRIPTION_PRICE=2999
+   SUBSCRIPTION_CURRENCY=usd
+   ```
+
+3. **Deploy**
+   - Push to your main branch
+   - Railway will automatically build and deploy
+   - Access your app at `https://your-app.railway.app`
+
+### Manual Configuration
+
+If you need to manually configure Railway:
+
+1. **Install Railway CLI**
+   ```bash
+   npm install -g @railway/cli
+   railway login
+   ```
+
+2. **Initialize Project**
+   ```bash
+   railway init
+   railway link
+   ```
+
+3. **Set Environment Variables**
+   ```bash
+   railway variables set SECRET_KEY="your-secret-key"
+   railway variables set STRIPE_SECRET_KEY="sk_live_..."
+   # ... set all required variables
+   ```
+
+4. **Deploy**
+   ```bash
+   railway up
+   ```
+
+## 🔧 Configuration
+
+### Required Environment Variables
+
+| Variable | Description | Example |
+|----------|-------------|---------|
+| `SECRET_KEY` | Flask secret key for sessions | `your-very-long-random-secret-key` |
+| `DATABASE_URL` | PostgreSQL connection string | `postgresql://user:pass@host:port/db` |
+| `STRIPE_SECRET_KEY` | Stripe secret key | `sk_live_...` |
+| `STRIPE_PUBLISHABLE_KEY` | Stripe publishable key | `pk_live_...` |
+| `STRIPE_WEBHOOK_SECRET` | Stripe webhook secret | `whsec_...` |
+| `GEMINI_API_KEY` | Google Gemini AI API key | `your_gemini_api_key` |
+| `ENCRYPTION_KEY` | 32-byte base64 encryption key | `base64-encoded-key` |
+
+### Optional Configuration
+
+| Variable | Description | Default |
+|----------|-------------|---------|
+| `SUBSCRIPTION_PRICE` | Monthly subscription price (cents) | `2999` |
+| `SUBSCRIPTION_CURRENCY` | Subscription currency | `usd` |
+| `MAIL_SERVER` | SMTP server for emails | `smtp.gmail.com` |
+| `MAIL_PORT` | SMTP port | `587` |
+
+## 💳 Stripe Setup
+
+1. **Create Stripe Account**
+   - Sign up at [stripe.com](https://stripe.com)
+   - Get your API keys from the dashboard
+
+2. **Configure Webhooks**
+   - Add webhook endpoint: `https://your-app.railway.app/api/payments/webhook`
+   - Subscribe to events:
+     - `customer.subscription.created`
+     - `customer.subscription.updated`
+     - `customer.subscription.deleted`
+     - `invoice.payment_succeeded`
+     - `invoice.payment_failed`
+
+3. **Test Payments**
+   - Use test card: `4242 4242 4242 4242`
+   - Any future expiry date and CVC
+
+## 🤖 AI Integration
+
+The application uses Google Gemini AI for market analysis:
+
+1. **Get API Key**
+   - Visit [Google AI Studio](https://makersuite.google.com/app/apikey)
+   - Create a new API key
+
+2. **Configure Analysis**
+   - The AI analyzes market sentiment, technical indicators, and trends
+   - Results are cached for performance
+   - Users can request analysis for individual cryptocurrencies or portfolios
+
+## 🔒 Security Features
+
+- **Encryption**: All sensitive data encrypted with AES-256
+- **Authentication**: Secure session management with Flask-Login
+- **Password Security**: Bcrypt hashing with salt
+- **API Security**: Rate limiting and input validation
+- **HTTPS**: Enforced in production
+- **CSRF Protection**: Built-in CSRF tokens
+
+## 📊 Database Schema
+
+### Users Table
+- User authentication and profile information
+- Subscription status and Stripe integration
+- Encrypted API key storage
+
+### Analysis Cache Table
+- Cached AI analysis results
+- Automatic expiration and cleanup
+- User-specific caching
+
+### User Sessions Table
+- Secure session management
+- Device tracking and security
+
+## 🧪 Testing
+
+### Run Tests Locally
 ```bash
-# Start het volledig geautomatiseerde systeem
-python run_automated_trader.py
+# Install test dependencies
+pip install pytest pytest-cov
 
-# Met aangepaste instellingen
-python run_automated_trader.py --max-position 0.05 --max-invested 0.6 --interval 1800
+# Run tests
+pytest tests/
+
+# Run with coverage
+pytest --cov=src tests/
 ```
 
-### Configuratie Opties
-- `--interval`: Analyse interval in seconden (standaard: 3600 = 1 uur)
-- `--max-position`: Maximaal percentage per positie (standaard: 0.1 = 10%)
-- `--max-invested`: Maximaal geïnvesteerd percentage (standaard: 0.8 = 80%)
-- `--min-confidence`: Minimum vertrouwen voor trades (standaard: 0.75 = 75%)
-- `--demo`: Demo modus voor testen
+### Test Endpoints
+- Health check: `GET /health`
+- Authentication: `POST /api/auth/login`
+- Analysis: `GET /api/analyze/BTC`
+- Payments: `POST /api/payments/create-checkout-session`
 
-### Voorbeeld Configuraties
+## 🚨 Troubleshooting
 
-**Conservatief (Veilig)**:
+### Common Issues
+
+1. **Database Connection Errors**
+   - Verify `DATABASE_URL` is correct
+   - Ensure PostgreSQL is running
+   - Check firewall settings
+
+2. **Stripe Webhook Issues**
+   - Verify webhook URL is accessible
+   - Check webhook secret configuration
+   - Review Stripe dashboard for failed webhooks
+
+3. **AI Analysis Failures**
+   - Verify Gemini API key is valid
+   - Check API quota and billing
+   - Review error logs for specific issues
+
+4. **Static File Issues**
+   - Ensure static files are properly served
+   - Check file permissions
+   - Verify Railway build process
+
+### Logs and Monitoring
+
 ```bash
-python run_automated_trader.py --max-position 0.05 --max-invested 0.5 --min-confidence 0.85
+# View Railway logs
+railway logs
+
+# Monitor application health
+curl https://your-app.railway.app/health
 ```
 
-**Agressief (Hoog Rendement)**:
+## 📈 Performance Optimization
+
+- **Caching**: Analysis results cached for 1-2 hours
+- **Database**: Indexed queries and connection pooling
+- **Static Files**: Served efficiently with proper headers
+- **API Limits**: Rate limiting to prevent abuse
+- **CDN**: Consider adding CDN for static assets
+
+## 🔄 Updates and Maintenance
+
+### Updating Dependencies
 ```bash
-python run_automated_trader.py --max-position 0.15 --max-invested 0.9 --min-confidence 0.7 --interval 1800
+pip install --upgrade -r requirements.txt
+pip freeze > requirements.txt
 ```
 
-**Snelle Altcoin Trading**:
+### Database Migrations
 ```bash
-python run_automated_trader.py --interval 900 --max-position 0.08 --min-confidence 0.8
+# Create migration
+flask db migrate -m "Description"
+
+# Apply migration
+flask db upgrade
 ```
 
-## Railway Deployment (Aanbevolen)
+### Monitoring
+- Monitor Railway metrics dashboard
+- Set up Stripe webhook monitoring
+- Track user registration and subscription metrics
 
-### Stap 1: GitHub Repository
-1. Fork of clone deze repository naar je eigen GitHub account
-2. Zorg ervoor dat alle bestanden aanwezig zijn (Procfile, railway.json, requirements.txt)
+## 📞 Support
 
-### Stap 2: Railway Setup
-1. Ga naar [Railway.app](https://railway.app) en maak een account aan
-2. Klik op "New Project" en selecteer "Deploy from GitHub repo"
-3. Selecteer je cryptocurrency trading system repository
-4. Railway detecteert automatisch de Python applicatie en gebruikt de Procfile
+For technical support or questions:
+- Check the troubleshooting section above
+- Review Railway deployment logs
+- Verify all environment variables are set correctly
 
-### Stap 3: Environment Variables
-Voeg de volgende environment variables toe in Railway:
-```
-COINBASE_API_KEY=your_coinbase_api_key
-COINBASE_API_SECRET=your_coinbase_api_secret
-COINBASE_API_PASSPHRASE=your_coinbase_passphrase
-DEBUG=False
-DEMO_MODE=False
-```
+## 📄 License
 
-### Stap 4: Deploy
-Railway zal automatisch deployen. Je krijgt een publieke URL voor je dashboard.
-
-## Lokale Installatie
-
-1. Clone de repository:
-```bash
-git clone https://github.com/yourusername/crypto_trading_system.git
-cd crypto_trading_system
-```
-
-2. Installeer de benodigde packages:
-```bash
-pip install -r requirements.txt
-```
-
-3. Maak een `.env` bestand aan op basis van het template:
-```bash
-cp .env.template .env
-```
-
-4. Vul je API keys in het `.env` bestand in:
-```
-COINBASE_API_KEY=your_coinbase_api_key
-COINBASE_API_SECRET=your_coinbase_api_secret
-COINBASE_API_PASSPHRASE=your_coinbase_passphrase
-DEMO_MODE=False
-```
-
-## Gebruik
-
-### Dashboard (Monitoring)
-```bash
-python run_dashboard.py
-```
-Het dashboard is toegankelijk via `http://localhost:8050`
-
-### Volledig Geautomatiseerd Handelen
-```bash
-python run_automated_trader.py
-```
-
-### Validatie Tests
-```bash
-python validate_automation.py
-```
-
-## Projectstructuur
-
-```
-crypto_trading_system/
-├── crypto_trading_system/src/    # Hoofdcode
-│   ├── automation/               # Automatisering modules
-│   │   ├── monitor.py           # Real-time monitoring
-│   │   ├── decision_engine.py   # Geautomatiseerde besluitvorming
-│   │   ├── trade_executor.py    # Live handelsuitvoering
-│   │   ├── risk_manager.py      # Risicobeheer
-│   │   └── auto_trader.py       # Hoofdorchestrator
-│   ├── analysis/                # Analyse modules
-│   ├── api/                     # API clients
-│   ├── models/                  # Data modellen
-│   ├── trading/                 # Trading engine
-│   ├── ui/                      # Dashboard UI
-│   └── utils/                   # Hulpfuncties
-├── run_automated_trader.py      # Start automatisch handelen
-├── run_dashboard.py             # Start dashboard
-├── validate_automation.py       # Validatie tests
-├── requirements.txt             # Python dependencies
-├── Procfile                     # Railway deployment
-├── railway.json                 # Railway configuratie
-└── README.md                    # Deze documentatie
-```
-
-## Veiligheid en Risicobeheer
-
-Het systeem bevat uitgebreide veiligheidsfuncties:
-
-- **Stop-Loss Orders**: Automatische bescherming tegen grote verliezen
-- **Position Sizing**: Beperkt risico per positie
-- **Daily Loss Limits**: Stopt handelen bij dagelijkse verlieslimieten
-- **Portfolio Diversificatie**: Voorkomt overconcentratie in één asset
-- **Demo Mode**: Test het systeem zonder echte trades
-
-## Monitoring en Controle
-
-- **Real-time Status**: Continu monitoring van systeemstatus
-- **Performance Metrics**: Tracking van rendement en succes ratio
-- **Risk Alerts**: Waarschuwingen bij risicosituaties
-- **Emergency Stop**: Onmiddellijke stop van alle activiteiten
-
-## GitHub Workflow voor AI-tools
-
-Dit project is gestructureerd om gemakkelijk te bewerken met AI-tools:
-
-### Aanpassingen maken
-1. **Via GitHub Web Interface**: Bewerk bestanden direct in de browser
-2. **Via AI-tools**: Upload bestanden naar AI-tools voor modificatie
-3. **Lokale ontwikkeling**: Clone, bewerk, en push terug naar GitHub
-
-### Automatische Deployment
-Elke push naar de main branch triggert automatisch een nieuwe deployment op Railway.
-
-## Support
-
-Voor vragen of problemen:
-1. Check de logs in het dashboard
-2. Run `validate_automation.py` voor diagnostiek
-3. Gebruik demo mode voor veilig testen
+This project is proprietary software. All rights reserved.
 
 ---
 
-**Waarschuwing**: Cryptocurrency trading brengt risico's met zich mee. Test het systeem altijd eerst in demo mode en investeer alleen wat je kunt verliezen.
+**Built with ❤️ for professional cryptocurrency trading and analysis.**
 
-### Analyse Uitvoeren
-
-```bash
-python run.py --analyze --symbols BTC-USD ETH-USD
-```
-
-### Handel Uitvoeren (Demo Modus)
-
-```bash
-python run.py --analyze --trade --demo --symbols BTC-USD
-```
-
-### Handel Uitvoeren (Live Modus)
-
-```bash
-python run.py --analyze --trade --symbols BTC-USD
-```
-
-## Projectstructuur
-
-```
-crypto_trading_system/
-├── crypto_trading_system/        # Hoofdpackage
-│   ├── src/                      # Broncode
-│   │   ├── analysis/             # Analyse modules
-│   │   │   ├── technical.py      # Technische analyse
-│   │   │   ├── sentiment.py      # Sentiment analyse
-│   │   │   ├── market.py         # Marktgegevens analyse
-│   │   │   ├── project.py        # Project fundamentals analyse
-│   │   │   └── orchestrator.py   # Analyse orchestrator
-│   │   ├── api/                  # API clients
-│   │   │   └── clients.py        # Coinbase en CoinGecko clients
-│   │   ├── config/               # Configuratie
-│   │   │   └── settings.py       # Systeeminstellingen
-│   │   ├── models/               # Datamodellen
-│   │   │   └── data_models.py    # Datastructuren
-│   │   ├── trading/              # Handelslogica
-│   │   │   └── engine.py         # Handelsengine
-│   │   ├── ui/                   # Gebruikersinterface
-│   │   │   └── dashboard.py      # Dashboard UI
-│   │   └── utils/                # Hulpfuncties
-│   │       └── helpers.py        # Algemene hulpfuncties
-│   └── data/                     # Dataopslag
-├── docs/                         # Documentatie
-├── .env.template                 # Template voor omgevingsvariabelen
-├── setup.py                      # Setup script
-├── run.py                        # Hoofdscript
-└── run_dashboard.py              # Dashboard starter
-```
-
-## Aanpassen met AI Tools
-
-Dit project is ontworpen om gemakkelijk aangepast te kunnen worden met AI tools. De codestructuur is modulair en goed gedocumenteerd, wat het eenvoudig maakt om specifieke onderdelen te wijzigen zonder het hele systeem te beïnvloeden.
-
-### Tips voor Aanpassingen
-
-1. **Analyse Modules**: Voeg nieuwe indicatoren toe in de betreffende analyse modules
-2. **Dashboard UI**: Pas het dashboard aan in `src/ui/dashboard.py`
-3. **Handelslogica**: Wijzig handelsstrategieën in `src/trading/engine.py`
-4. **Configuratie**: Pas instellingen aan in `src/config/settings.py`
-
-## Licentie
-
-Dit project is beschikbaar onder de MIT licentie.

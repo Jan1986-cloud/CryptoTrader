@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Trading SaaS - AI-Powered Cryptocurrency Analysis</title>
+    <meta name="description" content="Professional cryptocurrency trading and analysis platform powered by AI">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="/static/css/main.css">
+    <link rel="stylesheet" href="/static/css/components.css">
+    <link rel="stylesheet" href="/static/css/dashboard.css">
+    
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <!-- Stripe -->
+    <script src="https://js.stripe.com/v3/"></script>
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-spinner">
+            <div class="spinner"></div>
+            <p>Loading Crypto Trading SaaS...</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <img src="/static/img/logo.svg" alt="Logo" class="nav-logo">
+                <span class="nav-title">Crypto Trading SaaS</span>
+            </div>
+            
+            <div class="nav-menu" id="nav-menu">
+                <div class="nav-links" id="nav-links-guest">
+                    <a href="#features" class="nav-link">Features</a>
+                    <a href="#pricing" class="nav-link">Pricing</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <button class="btn btn-outline" onclick="showLogin()">Login</button>
+                    <button class="btn btn-primary" onclick="showRegister()">Get Started</button>
+                </div>
+                
+                <div class="nav-links hidden" id="nav-links-user">
+                    <a href="#dashboard" class="nav-link" onclick="showDashboard()">Dashboard</a>
+                    <a href="#analysis" class="nav-link" onclick="showAnalysis()">Analysis</a>
+                    <a href="#portfolio" class="nav-link" onclick="showPortfolio()">Portfolio</a>
+                    <a href="#settings" class="nav-link" onclick="showSettings()">Settings</a>
+                    <div class="nav-user">
+                        <div class="user-avatar" id="user-avatar">
+                            <span id="user-initials">U</span>
+                        </div>
+                        <div class="user-dropdown" id="user-dropdown">
+                            <div class="dropdown-item" onclick="showProfile()">Profile</div>
+                            <div class="dropdown-item" onclick="showSubscription()">Subscription</div>
+                            <div class="dropdown-item" onclick="logout()">Logout</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        
+        <!-- Landing Page -->
+        <section id="landing-page" class="landing-page">
+            <div class="hero-section">
+                <div class="container">
+                    <div class="hero-content">
+                        <h1 class="hero-title">
+                            AI-Powered Cryptocurrency Trading
+                            <span class="gradient-text">Made Simple</span>
+                        </h1>
+                        <p class="hero-description">
+                            Professional-grade crypto analysis and trading tools powered by advanced AI. 
+                            Make smarter investment decisions with real-time market insights and automated portfolio optimization.
+                        </p>
+                        <div class="hero-actions">
+                            <button class="btn btn-primary btn-large" onclick="showRegister()">
+                                Start Free Trial
+                            </button>
+                            <button class="btn btn-outline btn-large" onclick="showDemo()">
+                                View Demo
+                            </button>
+                        </div>
+                        <div class="hero-stats">
+                            <div class="stat">
+                                <span class="stat-number">10K+</span>
+                                <span class="stat-label">Active Users</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">$50M+</span>
+                                <span class="stat-label">Assets Analyzed</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">99.9%</span>
+                                <span class="stat-label">Uptime</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-visual">
+                        <div class="dashboard-preview">
+                            <img src="/static/img/dashboard-preview.png" alt="Dashboard Preview" class="preview-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Features Section -->
+            <section id="features" class="features-section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section-title">Powerful Features</h2>
+                        <p class="section-description">Everything you need for professional cryptocurrency trading</p>
+                    </div>
+                    
+                    <div class="features-grid">
+                        <div class="feature-card">
+                            <div class="feature-icon">🤖</div>
+                            <h3 class="feature-title">AI Market Analysis</h3>
+                            <p class="feature-description">Advanced AI algorithms analyze market trends, sentiment, and technical indicators to provide actionable insights.</p>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <div class="feature-icon">🔒</div>
+                            <h3 class="feature-title">Secure API Vault</h3>
+                            <p class="feature-description">Bank-grade encryption for your exchange API keys. Your credentials are always safe and secure.</p>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <div class="feature-icon">📊</div>
+                            <h3 class="feature-title">Real-time Analytics</h3>
+                            <p class="feature-description">Live market data, technical indicators, and portfolio performance tracking in beautiful dashboards.</p>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <div class="feature-icon">⚡</div>
+                            <h3 class="feature-title">Automated Trading</h3>
+                            <p class="feature-description">Set up automated trading strategies based on AI recommendations and technical signals.</p>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <div class="feature-icon">🎯</div>
+                            <h3 class="feature-title">Risk Management</h3>
+                            <p class="feature-description">Advanced risk management tools including stop-losses, position sizing, and portfolio optimization.</p>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <div class="feature-icon">📱</div>
+                            <h3 class="feature-title">Mobile Ready</h3>
+                            <p class="feature-description">Access your trading dashboard from anywhere with our responsive, mobile-optimized interface.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Pricing Section -->
+            <section id="pricing" class="pricing-section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section-title">Simple Pricing</h2>
+                        <p class="section-description">Choose the plan that works for you</p>
+                    </div>
+                    
+                    <div class="pricing-cards">
+                        <div class="pricing-card">
+                            <div class="pricing-header">
+                                <h3 class="pricing-title">Monthly</h3>
+                                <div class="pricing-price">
+                                    <span class="price-currency">$</span>
+                                    <span class="price-amount">29</span>
+                                    <span class="price-period">/month</span>
+                                </div>
+                            </div>
+                            <ul class="pricing-features">
+                                <li>AI-powered market analysis</li>
+                                <li>Real-time crypto data</li>
+                                <li>Portfolio optimization</li>
+                                <li>Technical indicators</li>
+                                <li>Risk management tools</li>
+                                <li>API key vault</li>
+                                <li>Email support</li>
+                            </ul>
+                            <button class="btn btn-outline btn-full" onclick="selectPlan('basic_monthly')">
+                                Get Started
+                            </button>
+                        </div>
+                        
+                        <div class="pricing-card pricing-card-featured">
+                            <div class="pricing-badge">Most Popular</div>
+                            <div class="pricing-header">
+                                <h3 class="pricing-title">Yearly</h3>
+                                <div class="pricing-price">
+                                    <span class="price-currency">$</span>
+                                    <span class="price-amount">299</span>
+                                    <span class="price-period">/year</span>
+                                </div>
+                                <div class="pricing-savings">Save $49</div>
+                            </div>
+                            <ul class="pricing-features">
+                                <li>All Monthly features</li>
+                                <li>2 months free</li>
+                                <li>Priority support</li>
+                                <li>Advanced analytics</li>
+                                <li>Custom alerts</li>
+                                <li>API priority access</li>
+                                <li>Phone support</li>
+                            </ul>
+                            <button class="btn btn-primary btn-full" onclick="selectPlan('basic_yearly')">
+                                Get Started
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- Authentication Pages -->
+        <section id="auth-page" class="auth-page hidden">
+            <div class="auth-container">
+                <!-- Login Form -->
+                <div id="login-form" class="auth-form">
+                    <div class="auth-header">
+                        <h2 class="auth-title">Welcome Back</h2>
+                        <p class="auth-description">Sign in to your account</p>
+                    </div>
+                    
+                    <form id="login-form-element" class="form">
+                        <div class="form-group">
+                            <label for="login-email" class="form-label">Email</label>
+                            <input type="email" id="login-email" class="form-input" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="login-password" class="form-label">Password</label>
+                            <input type="password" id="login-password" class="form-input" required>
+                        </div>
+                        
+                        <div class="form-group form-group-row">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="login-remember">
+                                <span class="checkbox-custom"></span>
+                                Remember me
+                            </label>
+                            <a href="#" class="link" onclick="showForgotPassword()">Forgot password?</a>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full">
+                            Sign In
+                        </button>
+                    </form>
+                    
+                    <div class="auth-footer">
+                        <p>Don't have an account? <a href="#" class="link" onclick="showRegister()">Sign up</a></p>
+                    </div>
+                </div>
+                
+                <!-- Register Form -->
+                <div id="register-form" class="auth-form hidden">
+                    <div class="auth-header">
+                        <h2 class="auth-title">Get Started</h2>
+                        <p class="auth-description">Create your account</p>
+                    </div>
+                    
+                    <form id="register-form-element" class="form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="register-first-name" class="form-label">First Name</label>
+                                <input type="text" id="register-first-name" class="form-input">
+                            </div>
+                            <div class="form-group">
+                                <label for="register-last-name" class="form-label">Last Name</label>
+                                <input type="text" id="register-last-name" class="form-input">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="register-email" class="form-label">Email</label>
+                            <input type="email" id="register-email" class="form-input" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="register-password" class="form-label">Password</label>
+                            <input type="password" id="register-password" class="form-input" required>
+                            <div class="password-strength" id="password-strength"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="register-terms" required>
+                                <span class="checkbox-custom"></span>
+                                I agree to the <a href="#" class="link">Terms of Service</a> and <a href="#" class="link">Privacy Policy</a>
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full">
+                            Create Account
+                        </button>
+                    </form>
+                    
+                    <div class="auth-footer">
+                        <p>Already have an account? <a href="#" class="link" onclick="showLogin()">Sign in</a></p>
+                    </div>
+                </div>
+                
+                <!-- Forgot Password Form -->
+                <div id="forgot-password-form" class="auth-form hidden">
+                    <div class="auth-header">
+                        <h2 class="auth-title">Reset Password</h2>
+                        <p class="auth-description">Enter your email to receive a reset link</p>
+                    </div>
+                    
+                    <form id="forgot-password-form-element" class="form">
+                        <div class="form-group">
+                            <label for="forgot-email" class="form-label">Email</label>
+                            <input type="email" id="forgot-email" class="form-input" required>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full">
+                            Send Reset Link
+                        </button>
+                    </form>
+                    
+                    <div class="auth-footer">
+                        <p><a href="#" class="link" onclick="showLogin()">Back to login</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dashboard -->
+        <section id="dashboard-page" class="dashboard-page hidden">
+            <div class="dashboard-container">
+                <!-- Subscription Required Notice -->
+                <div id="subscription-notice" class="subscription-notice hidden">
+                    <div class="notice-content">
+                        <h3>Subscription Required</h3>
+                        <p>You need an active subscription to access the dashboard and AI features.</p>
+                        <button class="btn btn-primary" onclick="showPricing()">Choose Plan</button>
+                    </div>
+                </div>
+                
+                <!-- Main Dashboard Content -->
+                <div id="dashboard-content" class="dashboard-content">
+                    <!-- Dashboard Header -->
+                    <div class="dashboard-header">
+                        <div class="dashboard-title">
+                            <h1>Dashboard</h1>
+                            <p>Welcome back, <span id="user-name">User</span></p>
+                        </div>
+                        <div class="dashboard-actions">
+                            <button class="btn btn-outline" onclick="refreshDashboard()">
+                                <span class="btn-icon">🔄</span>
+                                Refresh
+                            </button>
+                            <button class="btn btn-primary" onclick="showAnalysis()">
+                                <span class="btn-icon">📊</span>
+                                New Analysis
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Dashboard Stats -->
+                    <div class="dashboard-stats">
+                        <div class="stat-card">
+                            <div class="stat-icon">💰</div>
+                            <div class="stat-content">
+                                <div class="stat-value" id="portfolio-value">$0</div>
+                                <div class="stat-label">Portfolio Value</div>
+                            </div>
+                        </div>
+                        
+                        <div class="stat-card">
+                            <div class="stat-icon">📈</div>
+                            <div class="stat-content">
+                                <div class="stat-value" id="portfolio-change">+0%</div>
+                                <div class="stat-label">24h Change</div>
+                            </div>
+                        </div>
+                        
+                        <div class="stat-card">
+                            <div class="stat-icon">🎯</div>
+                            <div class="stat-content">
+                                <div class="stat-value" id="ai-score">--</div>
+                                <div class="stat-label">AI Score</div>
+                            </div>
+                        </div>
+                        
+                        <div class="stat-card">
+                            <div class="stat-icon">⚡</div>
+                            <div class="stat-content">
+                                <div class="stat-value" id="active-signals">0</div>
+                                <div class="stat-label">Active Signals</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Dashboard Charts -->
+                    <div class="dashboard-charts">
+                        <div class="chart-card">
+                            <div class="chart-header">
+                                <h3>Portfolio Performance</h3>
+                                <div class="chart-controls">
+                                    <select id="chart-timeframe" class="form-select">
+                                        <option value="24h">24h</option>
+                                        <option value="7d">7d</option>
+                                        <option value="30d">30d</option>
+                                        <option value="90d">90d</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="chart-container">
+                                <canvas id="portfolio-chart"></canvas>
+                            </div>
+                        </div>
+                        
+                        <div class="chart-card">
+                            <div class="chart-header">
+                                <h3>Market Overview</h3>
+                            </div>
+                            <div class="chart-container">
+                                <canvas id="market-chart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Recent Analysis -->
+                    <div class="dashboard-section">
+                        <div class="section-header">
+                            <h3>Recent Analysis</h3>
+                            <button class="btn btn-text" onclick="showAnalysis()">View All</button>
+                        </div>
+                        <div class="analysis-list" id="recent-analysis">
+                            <!-- Analysis items will be populated here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Other sections (Analysis, Portfolio, Settings) will be added here -->
+        
+    </main>
+
+    <!-- Modals -->
+    <div id="modal-overlay" class="modal-overlay hidden" onclick="closeModal()">
+        <div class="modal" onclick="event.stopPropagation()">
+            <div class="modal-header">
+                <h3 class="modal-title" id="modal-title">Modal Title</h3>
+                <button class="modal-close" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-content" id="modal-content">
+                <!-- Modal content will be populated here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notifications -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <!-- Scripts -->
+    <script src="/static/js/utils.js"></script>
+    <script src="/static/js/api.js"></script>
+    <script src="/static/js/auth.js"></script>
+    <script src="/static/js/dashboard.js"></script>
+    <script src="/static/js/main.js"></script>
+</body>
+</html>
+
