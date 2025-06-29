@@ -232,83 +232,75 @@ class CoinbaseClient:
     def get_candles(self, product_id: str, granularity: int = 3600, start: str = None, end: str = None) -> Dict[str, Any]:
         """
         Get historical candle data for a product.
-        
+
         Args:
             product_id: Product ID (e.g., 'BTC-USD')
             granularity: Granularity in seconds (60, 300, 900, 3600, 21600, 86400)
             start: Start time in ISO format
             end: End time in ISO format
-            
+
         Returns:
             Dictionary with candle data or error
         """
+        # Demo mode: generate sample candle data
+        if self.demo_mode:
+            import random
+
+            candles = []
+            base_price = 50000 if "BTC" in product_id else 3000 if "ETH" in product_id else 100
+
+            # Generate 100 demo candles
+            for i in range(100):
+                timestamp = int((datetime.now() - timedelta(hours=100 - i)).timestamp())
+                price_variation = random.uniform(-0.05, 0.05)
+                open_price = base_price * (1 + price_variation)
+                close_price = open_price * (1 + random.uniform(-0.02, 0.02))
+                high_price = max(open_price, close_price) * (1 + random.uniform(0, 0.01))
+                low_price = min(open_price, close_price) * (1 - random.uniform(0, 0.01))
+                volume = random.uniform(1000, 10000)
+
+                candles.append({
+                    "timestamp": timestamp,
+                    "low": low_price,
+                    "high": high_price,
+                    "open": open_price,
+                    "close": close_price,
+                    "volume": volume
+                })
+            return {"candles": candles}
+
+        # Prepare request parameters
+        params = {"granularity": granularity}
+        if start:
+            params["start"] = start
+        if end:
+            params["end"] = end
+
+        # Fetch candle data using authenticated request
+        response = self._make_request("GET", f"/products/{product_id}/candles", params=params)
+        if isinstance(response, dict) and response.get("error"):
+            return {"error": response.get("error")}
+
+        # Format the candle data
+        candles = []
         try:
-            if self.demo_mode:
-                # Return demo candle data
-                import random
-                
-                candles = []
-                base_price = 50000 if "BTC" in product_id else 3000 if "ETH" in product_id else 100
-                
-                # Generate 100 demo candles
-                for i in range(100):
-                    timestamp = int((datetime.now() - timedelta(hours=100-i)).timestamp())
-                    price_variation = random.uniform(-0.05, 0.05)
-                    open_price = base_price * (1 + price_variation)
-                    close_price = open_price * (1 + random.uniform(-0.02, 0.02))
-                    high_price = max(open_price, close_price) * (1 + random.uniform(0, 0.01))
-                    low_price = min(open_price, close_price) * (1 - random.uniform(0, 0.01))
-                    volume = random.uniform(1000, 10000)
-                    
-                    candles.append({
-                        "timestamp": timestamp,
-                        "low": low_price,
-                        "high": high_price,
-                        "open": open_price,
-                        "close": close_price,
-                        "volume": volume
-                    })
-                
-                return {"candles": candles}
-            
-            # Build URL for real API
-            url = f"{self.base_url}/products/{product_id}/candles"
-            
-            # Build parameters
-            params = {
-                "granularity": granularity
-            }
-            
-            if start:
-                params["start"] = start
-            if end:
-                params["end"] = end
-            
-            # Make request
-            response = requests.get(url, params=params, timeout=30)
-            
-            if response.status_code == 200:
-                candles = response.json()
-                
-                # Convert to standard format
-                formatted_candles = []
-                for candle in candles:
-                    if len(candle) >= 6:
-                        formatted_candles.append({
-                            "timestamp": candle[0],
-                            "low": float(candle[1]),
-                            "high": float(candle[2]),
-                            "open": float(candle[3]),
-                            "close": float(candle[4]),
-                            "volume": float(candle[5])
-                        })
-                
-                return {"candles": formatted_candles}
-            else:
-                return {"error": f"HTTP {response.status_code}: {response.text}"}
-        
-        except Exception as e:
-            return {"error": f"Error fetching candles: {e}"}
+            for item in response:
+                timestamp, low, high, open_price, close_price, volume = item
+                candles.append({
+                    "timestamp": timestamp,
+                    "low": float(low),
+                    "high": float(high),
+                    "open": float(open_price),
+                    "close": float(close_price),
+                    "volume": float(volume)
+                })
+        except (ValueError, TypeError) as e:
+            logger.error(f"Error parsing candle data for {product_id}: {e}")
+            return {"error": f"Error parsing candle data: {e}"}
+
+        if not candles:
+            logger.warning(f"No candle data available for {product_id}")
+        return {"candles": candles}
     
     def get_products(self) -> Dict[str, Any]:
         """Get all available products."""
@@ -396,7 +388,26 @@ class CoinGeckoClient:
                 return {"error": f"HTTP {response.status_code}: {response.text}"}
         
         except Exception as e:
-            return {"error": f"Error fetching coin data: {e}"}
+            logger.error(f"Error fetching coin data for {coin_id}: {e}")
+            return {}
+
+    def get_coin_list(self) -> List[Dict[str, Any]]:
+        """
+        Get list of all coins from CoinGecko.
+        """
+        try:
+            self._rate_limit()
+            url = f"{self.base_url}/coins/list"
+            response = requests.get(url, timeout=30)
+            response.raise_for_status()
+            coins = response.json()
+            if isinstance(coins, list):
+                return coins
+            logger.error(f"Unexpected response format for coin list: {coins}")
+            return []
+        except Exception as e:
+            logger.error(f"Error fetching coin list: {e}")
+            return []
     
     def get_fear_greed_index(self) -> Dict[str, Any]:
         """

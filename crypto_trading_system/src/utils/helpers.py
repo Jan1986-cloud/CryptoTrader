@@ -63,6 +63,9 @@ def save_to_json(data: Dict[str, Any], filepath: str) -> bool:
     Returns:
         True if successful, False otherwise
     """
+    if not filepath or not isinstance(filepath, str) or not filepath.strip():
+        logger.error(f"Invalid filepath provided for save_to_json: '{filepath}'")
+        return False
     try:
         # Create directory if it doesn't exist
         os.makedirs(os.path.dirname(os.path.abspath(filepath)), exist_ok=True)
