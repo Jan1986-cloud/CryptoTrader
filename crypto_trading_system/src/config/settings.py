@@ -3,6 +3,10 @@ Configuration settings for the Cryptocurrency Trading System.
 """
 
 import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file if present
+load_dotenv()
 from typing import List, Dict, Any
 
 # API credentials

@@ -238,7 +238,6 @@ crypto_trading_system/
 │   │       └── helpers.py        # Algemene hulpfuncties
 │   └── data/                     # Dataopslag
 ├── docs/                         # Documentatie
-├── tests/                        # Tests
 ├── .env.template                 # Template voor omgevingsvariabelen
 ├── setup.py                      # Setup script
 ├── run.py                        # Hoofdscript

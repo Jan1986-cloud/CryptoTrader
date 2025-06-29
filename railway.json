@@ -5,7 +5,7 @@
         "buildCommand": "pip install -e ."
     },
     "deploy": {
-        "startCommand": "python crypto_trading_system/src/ui/dashboard.py",
+        "startCommand": "python run_dashboard.py",
         "healthcheckPath": "/",
         "healthcheckTimeout": 120,
         "restartPolicyType": "ON_FAILURE",

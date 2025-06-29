@@ -61,9 +61,9 @@ git clone https://github.com/yourusername/crypto_trading_system.git
 cd crypto_trading_system
 ```
 
-2. Installeer de benodigde packages:
+2. Installeer de benodigde Python-pakketten:
 ```bash
-python setup.py
+pip install -r requirements.txt
 ```
 
 3. Configureer de omgevingsvariabelen:
@@ -76,14 +76,13 @@ cp .env.template .env
 
 In het `.env` bestand kun je de volgende instellingen configureren:
 
-- `COINBASE_API_KEY`: Je Coinbase API key
+- `COINBASE_API_KEY`: Je Coinbase API key voor live trading
 - `COINBASE_API_SECRET`: Je Coinbase API secret
-- `DEMO_MODE`: True/False om demo modus in te schakelen
-- `LOG_LEVEL`: Logging niveau (INFO, DEBUG, etc.)
-- `DEMO_PORTFOLIO_VALUE`: Startwaarde voor demo portfolio
-- `MAX_POSITION_SIZE_PERCENT`: Maximaal percentage van portfolio per positie
-- `STOP_LOSS_PERCENT`: Percentage voor stop-loss orders
-- `TAKE_PROFIT_PERCENT`: Percentage voor take-profit orders
+- `COINBASE_API_PASSPHRASE`: Je Coinbase API passphrase
+- `DEMO_MODE`: True/False om demo modus in te schakelen (geen echte trades)
+- `DEBUG`: True/False om debug modus in te schakelen (verbose logging)
+- `PORT`: Poort voor de dashboard- en API-server
+- `OPENAI_API_KEY`: Optionele OpenAI API key voor AI-modules
 
 ## 4. Gebruikshandleiding
 

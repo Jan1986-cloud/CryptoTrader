@@ -5,8 +5,10 @@ Utility functions for the Cryptocurrency Trading System.
 import os
 import json
 import logging
+import os.path
 from datetime import datetime
 from typing import Dict, Any, Optional
+from ..config.settings import LOGS_DIR
 
 # Set up logging
 def setup_logging(name: str) -> logging.Logger:
@@ -37,13 +39,13 @@ def setup_logging(name: str) -> logging.Logger:
         logger.addHandler(handler)
         
         # Create logs directory if it doesn't exist
-        os.makedirs('logs', exist_ok=True)
-        
+        os.makedirs(LOGS_DIR, exist_ok=True)
+
         # Create file handler
-        file_handler = logging.FileHandler(f'logs/{name}.log')
+        file_handler = logging.FileHandler(os.path.join(LOGS_DIR, f"{name}.log"))
         file_handler.setLevel(logging.INFO)
         file_handler.setFormatter(formatter)
-        
+
         # Add file handler to logger
         logger.addHandler(file_handler)
     

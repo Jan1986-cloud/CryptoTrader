@@ -9,7 +9,7 @@ import sys
 from pathlib import Path
 
 # Add the project root directory to the Python path
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from crypto_trading_system.src.ui.dashboard import run_dashboard
 
