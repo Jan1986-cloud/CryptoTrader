@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="/static/css/main.css">
     <link rel="stylesheet" href="/static/css/components.css">
     <link rel="stylesheet" href="/static/css/dashboard.css">
+    <!-- Icon Library: Boxicons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
     
     <!-- Chart.js -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -134,37 +136,37 @@
                     
                     <div class="features-grid">
                         <div class="feature-card">
-                            <div class="feature-icon">🤖</div>
+                            <div class="feature-icon"><i class="bx bx-brain"></i></div>
                             <h3 class="feature-title">AI Market Analysis</h3>
                             <p class="feature-description">Advanced AI algorithms analyze market trends, sentiment, and technical indicators to provide actionable insights.</p>
                         </div>
                         
                         <div class="feature-card">
-                            <div class="feature-icon">🔒</div>
+                            <div class="feature-icon"><i class="bx bx-lock-alt"></i></div>
                             <h3 class="feature-title">Secure API Vault</h3>
                             <p class="feature-description">Bank-grade encryption for your exchange API keys. Your credentials are always safe and secure.</p>
                         </div>
                         
                         <div class="feature-card">
-                            <div class="feature-icon">📊</div>
+                            <div class="feature-icon"><i class="bx bx-bar-chart"></i></div>
                             <h3 class="feature-title">Real-time Analytics</h3>
                             <p class="feature-description">Live market data, technical indicators, and portfolio performance tracking in beautiful dashboards.</p>
                         </div>
                         
                         <div class="feature-card">
-                            <div class="feature-icon">⚡</div>
+                            <div class="feature-icon"><i class="bx bx-bolt"></i></div>
                             <h3 class="feature-title">Automated Trading</h3>
                             <p class="feature-description">Set up automated trading strategies based on AI recommendations and technical signals.</p>
                         </div>
                         
                         <div class="feature-card">
-                            <div class="feature-icon">🎯</div>
+                            <div class="feature-icon"><i class="bx bx-target"></i></div>
                             <h3 class="feature-title">Risk Management</h3>
                             <p class="feature-description">Advanced risk management tools including stop-losses, position sizing, and portfolio optimization.</p>
                         </div>
                         
                         <div class="feature-card">
-                            <div class="feature-icon">📱</div>
+                            <div class="feature-icon"><i class="bx bx-mobile-alt"></i></div>
                             <h3 class="feature-title">Mobile Ready</h3>
                             <p class="feature-description">Access your trading dashboard from anywhere with our responsive, mobile-optimized interface.</p>
                         </div>
@@ -459,6 +461,13 @@
         <!-- Other sections (Analysis, Portfolio, Settings) will be added here -->
         
     </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container text-center">
+            <p>&copy; <span id="current-year"></span> Crypto Trading SaaS. All rights reserved.</p>
+        </div>
+    </footer>
 
     <!-- Modals -->
     <div id="modal-overlay" class="modal-overlay hidden" onclick="closeModal()">

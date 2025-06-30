@@ -13,6 +13,22 @@ window.AppState = {
 // Initialize application
 document.addEventListener('DOMContentLoaded', function() {
     initializeApp();
+    // Set current year in footer
+    const yearEl = document.getElementById('current-year');
+    if (yearEl) {
+        yearEl.textContent = new Date().getFullYear();
+    }
+    // Animate feature cards on scroll
+    const cards = document.querySelectorAll('.feature-card');
+    const observer = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('animate');
+                obs.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.1 });
+    cards.forEach(card => observer.observe(card));
 });
 
 async function initializeApp() {
