@@ -89,6 +89,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
     line-height: 1.2;
     margin-bottom: var(--spacing-md);
+.dropdown-item:hover {
     color: var(--gray-50);
 }
 
@@ -102,11 +103,11 @@ h4 { font-size: 1.25rem; }
 h5 { font-size: 1.125rem; }
 h6 { font-size: 1rem; }
 
-	p {
-	    line-height: 1.6;
-	    margin-bottom: var(--spacing-md);
-	    color: var(--gray-200);
-	}
+		p {
+		    line-height: 1.6;
+		    margin-bottom: var(--spacing-md);
+		    color: var(--gray-100);
+		}
 
 a {
     color: var(--primary-color);
@@ -180,9 +181,9 @@ a:hover {
     top: 0;
     left: 0;
     right: 0;
-    background-color: rgba(18, 18, 18, 0.8);
+    background-color: rgba(18, 18, 18, 0.9);
     backdrop-filter: blur(10px);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     z-index: 100;
     transition: all var(--transition-normal);
 }
@@ -242,6 +243,13 @@ a:hover {
 .nav-link:hover::after {
     width: 100%;
 }
+.nav-link:focus {
+    outline: none;
+    color: var(--primary-color);
+}
+.nav-link:focus::after {
+    width: 100%;
+}
 
 .nav-user {
     position: relative;
@@ -269,17 +277,18 @@ a:hover {
     position: absolute;
     top: 100%;
     right: 0;
-    background: white;
-    border: 1px solid var(--gray-200);
+    background: var(--gray-800);
+    border: 1px solid var(--gray-700);
     border-radius: var(--radius-lg);
     box-shadow: var(--shadow-lg);
     min-width: 200px;
     padding: var(--spacing-sm);
-    color: var(--gray-900);
+    color: var(--gray-50);
     opacity: 0;
     visibility: hidden;
     transform: translateY(-10px);
     transition: all var(--transition-fast);
+    z-index: var(--z-dropdown);
 }
 
 .user-dropdown.show {
@@ -293,12 +302,16 @@ a:hover {
     border-radius: var(--radius-sm);
     cursor: pointer;
     transition: background-color var(--transition-fast), color var(--transition-fast);
-    color: var(--gray-900);
+    color: var(--gray-50);
 }
 
 .dropdown-item:hover {
-    background-color: var(--gray-50);
-    color: var(--gray-900);
+    background-color: var(--gray-700);
+    color: var(--gray-50);
+}
+.dropdown-item:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5);
 }
 
 .nav-toggle {
@@ -314,7 +327,7 @@ a:hover {
 .nav-toggle span {
     width: 25px;
     height: 3px;
-    background: var(--gray-200);
+    background: var(--gray-300);
     border-radius: 2px;
     transition: all var(--transition-fast);
 }
@@ -415,7 +428,7 @@ a:hover {
 
 .form-label {
     font-weight: 500;
-    color: var(--gray-400);
+    color: var(--gray-200);
     font-size: 0.875rem;
 }
 
@@ -466,7 +479,7 @@ a:hover {
     gap: var(--spacing-sm);
     cursor: pointer;
     font-size: 0.875rem;
-    color: var(--gray-400);
+    color: var(--gray-200);
 }
 
 .checkbox-label input[type="checkbox"] {
@@ -717,6 +730,7 @@ a:hover {
     .nav-links {
         display: none;
     }
+
     
     .nav-toggle {
         display: flex;
@@ -733,6 +747,9 @@ a:hover {
         left: 0;
         right: 0;
         padding: var(--spacing-md);
+        overflow-y: auto;
+        max-height: calc(100vh - 70px);
+        z-index: var(--z-dropdown);
     }
     
     h1 { font-size: 2rem; }
@@ -876,7 +893,7 @@ a:hover {
     margin-bottom: var(--spacing-md);
 }
 .hero-description {
-    color: var(--gray-200);
+    color: var(--gray-100);
     margin-bottom: var(--spacing-lg);
 }
 .hero-actions {
@@ -897,12 +914,30 @@ a:hover {
     color: var(--gray-50);
 }
 .stat-label {
-    color: var(--gray-200);
+    color: var(--gray-100);
     font-size: 0.875rem;
 }
 .hero-visual .preview-image {
     border-radius: var(--radius-lg);
     box-shadow: var(--shadow-lg);
+
+}
+@media (max-width: 768px) {
+    .hero-actions {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .hero-actions .btn {
+        width: 100%;
+    }
+    .hero-stats {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .hero-stats .stat {
+        flex: 1 1 100%;
+        margin-bottom: var(--spacing-lg);
+    }
 }
 
 /* Pricing Cards */
