@@ -28,7 +28,9 @@ def create_app(config_name=None):
     if config_name is None:
         config_name = os.environ.get('FLASK_ENV', 'development')
     
-    app = Flask(__name__, static_folder=os.path.join(os.path.dirname(__file__), 'static'))
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    dist_dir = os.path.join(base_dir, '..', 'frontend', 'dist')
+    app = Flask(__name__, static_folder=dist_dir, static_url_path='')
     
     # Load configuration
     app.config.from_object(config[config_name])

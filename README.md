@@ -38,16 +38,35 @@ crypto_saas/
 │   │   └── ai_analysis.py     # Google Gemini AI integration
 │   ├── utils/
 │   │   └── encryption.py      # Encryption utilities
-│   └── static/
-│       ├── index.html         # Main frontend
-│       ├── css/               # Stylesheets
-│       └── js/                # JavaScript files
+    │   └── frontend/              # React + Vite front-end source & build
 ├── wsgi.py                    # WSGI entry point
 ├── requirements.txt           # Python dependencies
 ├── Procfile                   # Railway deployment config
 ├── railway.json              # Railway configuration
 └── .env.template             # Environment variables template
+
+```text
+
+## 🖥️ Frontend
+
+The front-end is built with React, Vite, and Tailwind CSS for a professional dark-mode fintech UI.
+
+### Development
+
+```bash
+cd frontend
+npm install
+npm run dev
 ```
+
+### Production Build
+
+```bash
+cd frontend
+npm run build
+```
+
+The production build is output to `frontend/dist`, and Flask will serve it automatically.
 
 ## 🚀 Quick Start
 
