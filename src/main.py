@@ -102,6 +102,11 @@ def create_app(config_name=None):
             'app': app.config['APP_NAME'],
             'environment': app.config['FLASK_ENV']
         }), 200
+
+    @app.route('/health')
+    def health_check_root():
+        """Health check endpoint at root path."""
+        return health_check()
     
     # API info endpoint
     @app.route('/api/info')
