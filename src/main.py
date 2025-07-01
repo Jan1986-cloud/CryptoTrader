@@ -4,7 +4,7 @@ from datetime import datetime
 # DON'T CHANGE: Add src to path for imports
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from flask import Flask, send_from_directory, jsonify, request
+from flask import Flask, send_from_directory, jsonify, request, abort
 from flask_login import LoginManager, current_user
 from flask_cors import CORS
 from flask_migrate import Migrate
@@ -30,7 +30,7 @@ def create_app(config_name=None):
     
     base_dir = os.path.dirname(os.path.abspath(__file__))
     dist_dir = os.path.join(base_dir, '..', 'frontend', 'dist')
-    app = Flask(__name__, static_folder=dist_dir, static_url_path='')
+    app = Flask(__name__, static_folder=dist_dir, static_url_path='/')
     
     # Load configuration
     app.config.from_object(config[config_name])
@@ -175,19 +175,25 @@ def create_app(config_name=None):
     @app.route('/', defaults={'path': ''})
     @app.route('/<path:path>')
     def serve(path):
-        """Serve static files and SPA routes."""
+        """Serve static files and SPA routes (excluding API endpoints)."""
+        # Skip API routes to allow existing blueprints to handle them
+        if path.startswith('api'):
+            return abort(404)
+
         static_folder_path = app.static_folder
-        if static_folder_path is None:
+        if not static_folder_path:
             return jsonify({'error': 'Static folder not configured'}), 404
 
-        if path != "" and os.path.exists(os.path.join(static_folder_path, path)):
+        full_path = os.path.join(static_folder_path, path)
+        if path and os.path.exists(full_path):
             return send_from_directory(static_folder_path, path)
-        else:
-            index_path = os.path.join(static_folder_path, 'index.html')
-            if os.path.exists(index_path):
-                return send_from_directory(static_folder_path, 'index.html')
-            else:
-                return jsonify({'error': 'Frontend not found'}), 404
+
+        # Fallback to index.html for client-side routing
+        index_file = os.path.join(static_folder_path, 'index.html')
+        if os.path.exists(index_file):
+            return send_from_directory(static_folder_path, 'index.html')
+
+        return jsonify({'error': 'Frontend not found'}), 404
     
     return app
 
