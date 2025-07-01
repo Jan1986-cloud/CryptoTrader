@@ -177,8 +177,6 @@ def create_app(config_name=None):
     def serve(path):
         """Serve static files and SPA routes (excluding API endpoints)."""
         # Skip API routes to allow existing blueprints to handle them
-        if path.startswith('api'):
-            return abort(404)
 
         static_folder_path = app.static_folder
         if not static_folder_path:
