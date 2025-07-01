@@ -13,8 +13,20 @@ class Config:
     DATABASE_URL = os.environ.get('DATABASE_URL')
     if DATABASE_URL and DATABASE_URL.startswith('postgres://'):
         DATABASE_URL = DATABASE_URL.replace('postgres://', 'postgresql://', 1)
-    
-    SQLALCHEMY_DATABASE_URI = DATABASE_URL or f"sqlite:///{os.path.join(os.path.dirname(__file__), 'database', 'app.db')}"
+
+    if DATABASE_URL and DATABASE_URL.startswith('postgresql+psycopg2://'):
+        DATABASE_URL = DATABASE_URL.replace(
+            'postgresql+psycopg2://', 'postgresql+psycopg://', 1
+        )
+    elif DATABASE_URL and DATABASE_URL.startswith('postgresql://'):
+        DATABASE_URL = DATABASE_URL.replace(
+            'postgresql://', 'postgresql+psycopg://', 1
+        )
+
+    SQLALCHEMY_DATABASE_URI = (
+        DATABASE_URL
+        or f"sqlite:///{os.path.join(os.path.dirname(__file__), 'database', 'app.db')}"
+    )
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     SQLALCHEMY_ENGINE_OPTIONS = {
         'pool_pre_ping': True,
